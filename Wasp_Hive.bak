@@ -1,0 +1,2917 @@
+EESchema Schematic File Version 4
+LIBS:Wasp_Hive-cache
+LIBS:HiveTriptych_Center-cache
+LIBS:TeensyCodec_Daughter-cache
+EELAYER 29 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+5V #PWR00
+U 1 1 619D369A
+P 1000 2050
+F 0 "#PWR00" H 1000 1900 50  0001 C CNN
+F 1 "+5V" V 1015 2178 50  0000 L CNN
+F 2 "" H 1000 2050 50  0001 C CNN
+F 3 "" H 1000 2050 50  0001 C CNN
+	1    1000 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1100 1850 1050 1850
+Wire Wire Line
+	1100 1750 1050 1750
+Wire Wire Line
+	1100 1650 1050 1650
+Wire Wire Line
+	1100 1550 1050 1550
+Wire Wire Line
+	1100 1450 1050 1450
+Wire Wire Line
+	1100 1350 1050 1350
+Wire Wire Line
+	1100 1250 1050 1250
+Wire Wire Line
+	1100 1150 1050 1150
+Text GLabel 3900 1200 0    50   UnSpc ~ 0
+T8
+Text GLabel 1050 1850 0    50   UnSpc ~ 0
+T7
+Text GLabel 1050 1750 0    50   UnSpc ~ 0
+T6
+Text GLabel 1050 1650 0    50   UnSpc ~ 0
+T5
+Text GLabel 1050 1550 0    50   UnSpc ~ 0
+T4
+Text GLabel 1050 1450 0    50   UnSpc ~ 0
+T3
+Text GLabel 1050 1350 0    50   UnSpc ~ 0
+T2
+Text GLabel 1050 1250 0    50   UnSpc ~ 0
+T1
+Wire Wire Line
+	1600 850  1600 800 
+$Comp
+L power:+5V #PWR01
+U 1 1 619D36B5
+P 1600 800
+F 0 "#PWR01" H 1600 650 50  0001 C CNN
+F 1 "+5V" H 1615 973 50  0000 C CNN
+F 2 "" H 1600 800 50  0001 C CNN
+F 3 "" H 1600 800 50  0001 C CNN
+	1    1600 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 619D36BF
+P 1600 2550
+F 0 "#PWR02" H 1600 2300 50  0001 C CNN
+F 1 "GND" H 1605 2377 50  0000 C CNN
+F 2 "" H 1600 2550 50  0001 C CNN
+F 3 "" H 1600 2550 50  0001 C CNN
+	1    1600 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC245 U0
+U 1 1 619D36C9
+P 1600 1650
+F 0 "U0" H 1350 2300 50  0000 C CNN
+F 1 "74HC245" H 1850 2300 50  0000 C CNN
+F 2 "Package_SO:SO-20_12.8x7.5mm_P1.27mm" H 1600 1650 50  0001 C CNN
+F 3 "C5625" H 1600 1650 50  0001 C CNN
+	1    1600 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 2050 1100 2050
+Wire Wire Line
+	1600 2450 1600 2500
+Wire Wire Line
+	1600 2500 1100 2500
+Wire Wire Line
+	1100 2500 1100 2150
+Connection ~ 1600 2500
+Wire Wire Line
+	1600 2500 1600 2550
+$Comp
+L Device:LED D1
+U 1 1 63F54169
+P 1550 3500
+F 0 "D1" H 1650 3550 50  0000 C CNN
+F 1 "WSP" H 1350 3550 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1550 3500 50  0001 C CNN
+F 3 "~" H 1550 3500 50  0001 C CNN
+	1    1550 3500
+	-1   0    0    -1  
+$EndComp
+Connection ~ 8850 4250
+Wire Wire Line
+	8700 4250 8850 4250
+Connection ~ 9000 4250
+Wire Wire Line
+	8850 4250 8850 4350
+Wire Wire Line
+	9000 4250 8900 4250
+Wire Wire Line
+	9000 4700 9000 4750
+Connection ~ 9000 4700
+Wire Wire Line
+	8850 4700 8850 4650
+Wire Wire Line
+	9000 4700 8850 4700
+Wire Wire Line
+	9000 4650 9000 4700
+$Comp
+L Amplifier_Operational:MCP6002-xP U2
+U 1 1 61CDCF2C
+P 9400 4150
+F 0 "U2" H 9400 3783 50  0000 C CNN
+F 1 "MCP6002-xP" H 9400 3874 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9400 4150 50  0001 C CNN
+F 3 "C7377" H 9400 4150 50  0001 C CNN
+	1    9400 4150
+	1    0    0    1   
+$EndComp
+Connection ~ 9800 4150
+Wire Wire Line
+	9800 4150 9900 4150
+Text GLabel 9900 4150 2    50   Input ~ 0
+FM_CV
+$Comp
+L power:GND #PWR022
+U 1 1 63965EC9
+P 9000 4750
+F 0 "#PWR022" H 9000 4500 50  0001 C CNN
+F 1 "GND" H 9005 4577 50  0000 C CNN
+F 2 "" H 9000 4750 50  0001 C CNN
+F 3 "" H 9000 4750 50  0001 C CNN
+	1    9000 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 4150 9700 4150
+Wire Wire Line
+	9800 3700 9800 4150
+Wire Wire Line
+	9000 3700 9800 3700
+Wire Wire Line
+	9000 4050 9000 3700
+Wire Wire Line
+	9100 4050 9000 4050
+Wire Wire Line
+	9000 4250 9100 4250
+Wire Wire Line
+	9000 4350 9000 4250
+$Comp
+L Device:R R49
+U 1 1 63965EBC
+P 9000 4500
+F 0 "R49" H 8930 4454 50  0000 R CNN
+F 1 "100k" H 8930 4545 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 8930 4500 50  0001 C CNN
+F 3 "~" H 9000 4500 50  0001 C CNN
+	1    9000 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R48
+U 1 1 63965EB6
+P 8550 4250
+F 0 "R48" V 8343 4250 50  0000 C CNN
+F 1 "100k" V 8434 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 8480 4250 50  0001 C CNN
+F 3 "~" H 8550 4250 50  0001 C CNN
+	1    8550 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:EuroJack_Mono_3.5mm_Switched J0
+U 1 1 61CDCF28
+P 1600 3900
+F 0 "J0" H 1628 4125 50  0000 C CNN
+F 1 "WASP_OUT" H 1628 4034 50  0000 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex" H 1600 3900 50  0001 C CNN
+F 3 "~" H 1600 3900 50  0001 C CNN
+	1    1600 3900
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 1400 4000
+$Comp
+L Device:R R2
+U 1 1 61A9AB0F
+P 1150 3900
+F 0 "R2" V 943 3900 50  0000 C CNN
+F 1 "O_R" V 1034 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 1080 3900 50  0001 C CNN
+F 3 "~" H 1150 3900 50  0001 C CNN
+	1    1150 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 1850 2150 1850
+Wire Wire Line
+	2100 1750 2150 1750
+Wire Wire Line
+	2100 1650 2150 1650
+Wire Wire Line
+	2100 1550 2150 1550
+Wire Wire Line
+	2100 1450 2150 1450
+Wire Wire Line
+	2100 1350 2150 1350
+Wire Wire Line
+	2100 1250 2150 1250
+Wire Wire Line
+	2100 1150 2150 1150
+Text GLabel 5000 1200 2    50   UnSpc ~ 0
+O8
+Text GLabel 2150 1850 2    50   UnSpc ~ 0
+O7
+Text GLabel 2150 1750 2    50   UnSpc ~ 0
+O6
+Text GLabel 2150 1650 2    50   UnSpc ~ 0
+O5
+Text GLabel 2150 1550 2    50   UnSpc ~ 0
+O4
+Text GLabel 2150 1450 2    50   UnSpc ~ 0
+O3
+Text GLabel 2150 1350 2    50   UnSpc ~ 0
+O2
+Text GLabel 2150 1250 2    50   UnSpc ~ 0
+O1
+Text GLabel 900  4650 0    50   UnSpc ~ 0
+O1
+$Comp
+L Device:R R1
+U 1 1 61A9D49C
+P 1150 3500
+F 0 "R1" V 943 3500 50  0000 C CNN
+F 1 "WSP_R" V 1034 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 1080 3500 50  0001 C CNN
+F 3 "~" H 1150 3500 50  0001 C CNN
+	1    1150 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D0
+U 1 1 61AA13A2
+P 1550 3150
+F 0 "D0" H 1650 3200 50  0000 C CNN
+F 1 "LRV" H 1350 3200 50  0000 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 1550 3150 50  0001 C CNN
+F 3 "~" H 1550 3150 50  0001 C CNN
+	1    1550 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R0
+U 1 1 61AA13AC
+P 1150 3150
+F 0 "R0" V 943 3150 50  0000 C CNN
+F 1 "LRV_R" V 1034 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 1080 3150 50  0001 C CNN
+F 3 "~" H 1150 3150 50  0001 C CNN
+	1    1150 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	900  3150 950  3150
+Wire Wire Line
+	1300 3150 1400 3150
+Wire Wire Line
+	1300 3500 1400 3500
+Wire Wire Line
+	950  3150 950  3500
+Wire Wire Line
+	950  3500 1000 3500
+Connection ~ 950  3150
+Wire Wire Line
+	950  3150 1000 3150
+Wire Wire Line
+	950  3500 950  3900
+Wire Wire Line
+	950  3900 1000 3900
+Connection ~ 950  3500
+Wire Wire Line
+	1300 3900 1400 3900
+$Comp
+L power:GND #PWR03
+U 1 1 61AA6799
+P 1700 4250
+F 0 "#PWR03" H 1700 4000 50  0001 C CNN
+F 1 "GND" H 1705 4077 50  0000 C CNN
+F 2 "" H 1700 4250 50  0001 C CNN
+F 3 "" H 1700 4250 50  0001 C CNN
+	1    1700 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 4150 1700 4200
+Wire Wire Line
+	1700 4200 1900 4200
+Wire Wire Line
+	1900 3150 1700 3150
+Connection ~ 1700 4200
+Wire Wire Line
+	1700 4200 1700 4250
+Wire Wire Line
+	1700 3500 1900 3500
+Wire Wire Line
+	1900 3150 1900 3500
+Connection ~ 1900 3500
+Wire Wire Line
+	1900 3500 1900 4200
+$Comp
+L Device:LED D3
+U 1 1 61AB76B7
+P 1550 5000
+F 0 "D3" H 1650 5050 50  0000 C CNN
+F 1 "WSP" H 1350 5050 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1550 5000 50  0001 C CNN
+F 3 "~" H 1550 5000 50  0001 C CNN
+	1    1550 5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:EuroJack_Mono_3.5mm_Switched J1
+U 1 1 61AB76C1
+P 1600 5400
+F 0 "J1" H 1628 5625 50  0000 C CNN
+F 1 "WASP_OUT" H 1628 5534 50  0000 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex" H 1600 5400 50  0001 C CNN
+F 3 "~" H 1600 5400 50  0001 C CNN
+	1    1600 5400
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 1400 5500
+$Comp
+L Device:R R5
+U 1 1 61AB76CC
+P 1150 5400
+F 0 "R5" V 943 5400 50  0000 C CNN
+F 1 "O_R" V 1034 5400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 1080 5400 50  0001 C CNN
+F 3 "~" H 1150 5400 50  0001 C CNN
+	1    1150 5400
+	0    1    1    0   
+$EndComp
+Text GLabel 900  6150 0    50   UnSpc ~ 0
+O2
+$Comp
+L Device:R R4
+U 1 1 61AB76D7
+P 1150 5000
+F 0 "R4" V 943 5000 50  0000 C CNN
+F 1 "WSP_R" V 1034 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 1080 5000 50  0001 C CNN
+F 3 "~" H 1150 5000 50  0001 C CNN
+	1    1150 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 61AB76E1
+P 1550 4650
+F 0 "D2" H 1650 4700 50  0000 C CNN
+F 1 "LRV" H 1350 4700 50  0000 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 1550 4650 50  0001 C CNN
+F 3 "~" H 1550 4650 50  0001 C CNN
+	1    1550 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 61AB76EB
+P 1150 4650
+F 0 "R3" V 943 4650 50  0000 C CNN
+F 1 "LRV_R" V 1034 4650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 1080 4650 50  0001 C CNN
+F 3 "~" H 1150 4650 50  0001 C CNN
+	1    1150 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	900  4650 950  4650
+Wire Wire Line
+	1300 4650 1400 4650
+Wire Wire Line
+	1300 5000 1400 5000
+Wire Wire Line
+	950  4650 950  5000
+Wire Wire Line
+	950  5000 1000 5000
+Connection ~ 950  4650
+Wire Wire Line
+	950  4650 1000 4650
+Wire Wire Line
+	950  5000 950  5400
+Wire Wire Line
+	950  5400 1000 5400
+Connection ~ 950  5000
+Wire Wire Line
+	1300 5400 1400 5400
+$Comp
+L power:GND #PWR04
+U 1 1 61AB7700
+P 1700 5750
+F 0 "#PWR04" H 1700 5500 50  0001 C CNN
+F 1 "GND" H 1705 5577 50  0000 C CNN
+F 2 "" H 1700 5750 50  0001 C CNN
+F 3 "" H 1700 5750 50  0001 C CNN
+	1    1700 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 5650 1700 5700
+Wire Wire Line
+	1700 5700 1900 5700
+Wire Wire Line
+	1900 4650 1700 4650
+Connection ~ 1700 5700
+Wire Wire Line
+	1700 5700 1700 5750
+Wire Wire Line
+	1700 5000 1900 5000
+Wire Wire Line
+	1900 4650 1900 5000
+Connection ~ 1900 5000
+Wire Wire Line
+	1900 5000 1900 5700
+$Comp
+L Device:LED D5
+U 1 1 61ABAF6C
+P 1550 6500
+F 0 "D5" H 1650 6550 50  0000 C CNN
+F 1 "WSP" H 1350 6550 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1550 6500 50  0001 C CNN
+F 3 "~" H 1550 6500 50  0001 C CNN
+	1    1550 6500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:EuroJack_Mono_3.5mm_Switched J2
+U 1 1 61ABAF76
+P 1600 6900
+F 0 "J2" H 1628 7125 50  0000 C CNN
+F 1 "WASP_OUT" H 1628 7034 50  0000 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex" H 1600 6900 50  0001 C CNN
+F 3 "~" H 1600 6900 50  0001 C CNN
+	1    1600 6900
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 1400 7000
+$Comp
+L Device:R R8
+U 1 1 61ABAF81
+P 1150 6900
+F 0 "R8" V 943 6900 50  0000 C CNN
+F 1 "O_R" V 1034 6900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 1080 6900 50  0001 C CNN
+F 3 "~" H 1150 6900 50  0001 C CNN
+	1    1150 6900
+	0    1    1    0   
+$EndComp
+Text GLabel 900  7650 0    50   UnSpc ~ 0
+O3
+$Comp
+L Device:R R7
+U 1 1 61ABAF8C
+P 1150 6500
+F 0 "R7" V 943 6500 50  0000 C CNN
+F 1 "WSP_R" V 1034 6500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 1080 6500 50  0001 C CNN
+F 3 "~" H 1150 6500 50  0001 C CNN
+	1    1150 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 61ABAF96
+P 1550 6150
+F 0 "D4" H 1650 6200 50  0000 C CNN
+F 1 "LRV" H 1350 6200 50  0000 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 1550 6150 50  0001 C CNN
+F 3 "~" H 1550 6150 50  0001 C CNN
+	1    1550 6150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 61ABAFA0
+P 1150 6150
+F 0 "R6" V 943 6150 50  0000 C CNN
+F 1 "LRV_R" V 1034 6150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 1080 6150 50  0001 C CNN
+F 3 "~" H 1150 6150 50  0001 C CNN
+	1    1150 6150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	900  6150 950  6150
+Wire Wire Line
+	1300 6150 1400 6150
+Wire Wire Line
+	1300 6500 1400 6500
+Wire Wire Line
+	950  6150 950  6500
+Wire Wire Line
+	950  6500 1000 6500
+Connection ~ 950  6150
+Wire Wire Line
+	950  6150 1000 6150
+Wire Wire Line
+	950  6500 950  6900
+Wire Wire Line
+	950  6900 1000 6900
+Connection ~ 950  6500
+Wire Wire Line
+	1300 6900 1400 6900
+$Comp
+L power:GND #PWR05
+U 1 1 61ABAFB5
+P 1700 7250
+F 0 "#PWR05" H 1700 7000 50  0001 C CNN
+F 1 "GND" H 1705 7077 50  0000 C CNN
+F 2 "" H 1700 7250 50  0001 C CNN
+F 3 "" H 1700 7250 50  0001 C CNN
+	1    1700 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 7150 1700 7200
+Wire Wire Line
+	1700 7200 1900 7200
+Wire Wire Line
+	1900 6150 1700 6150
+Connection ~ 1700 7200
+Wire Wire Line
+	1700 7200 1700 7250
+Wire Wire Line
+	1700 6500 1900 6500
+Wire Wire Line
+	1900 6150 1900 6500
+Connection ~ 1900 6500
+Wire Wire Line
+	1900 6500 1900 7200
+$Comp
+L Device:LED D7
+U 1 1 61AC5AF8
+P 1550 8000
+F 0 "D7" H 1650 8050 50  0000 C CNN
+F 1 "WSP" H 1350 8050 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1550 8000 50  0001 C CNN
+F 3 "~" H 1550 8000 50  0001 C CNN
+	1    1550 8000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:EuroJack_Mono_3.5mm_Switched J3
+U 1 1 61AC5B02
+P 1600 8400
+F 0 "J3" H 1628 8625 50  0000 C CNN
+F 1 "WASP_OUT" H 1628 8534 50  0000 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex" H 1600 8400 50  0001 C CNN
+F 3 "~" H 1600 8400 50  0001 C CNN
+	1    1600 8400
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 1400 8500
+$Comp
+L Device:R R11
+U 1 1 61AC5B0D
+P 1150 8400
+F 0 "R11" V 943 8400 50  0000 C CNN
+F 1 "O_R" V 1034 8400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 1080 8400 50  0001 C CNN
+F 3 "~" H 1150 8400 50  0001 C CNN
+	1    1150 8400
+	0    1    1    0   
+$EndComp
+Text GLabel 2200 3200 0    50   UnSpc ~ 0
+O4
+$Comp
+L Device:R R10
+U 1 1 61AC5B18
+P 1150 8000
+F 0 "R10" V 943 8000 50  0000 C CNN
+F 1 "WSP_R" V 1034 8000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 1080 8000 50  0001 C CNN
+F 3 "~" H 1150 8000 50  0001 C CNN
+	1    1150 8000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 61AC5B22
+P 1550 7650
+F 0 "D6" H 1650 7700 50  0000 C CNN
+F 1 "LRV" H 1350 7700 50  0000 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 1550 7650 50  0001 C CNN
+F 3 "~" H 1550 7650 50  0001 C CNN
+	1    1550 7650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 61AC5B2C
+P 1150 7650
+F 0 "R9" V 943 7650 50  0000 C CNN
+F 1 "LRV_R" V 1034 7650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 1080 7650 50  0001 C CNN
+F 3 "~" H 1150 7650 50  0001 C CNN
+	1    1150 7650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	900  7650 950  7650
+Wire Wire Line
+	1300 7650 1400 7650
+Wire Wire Line
+	1300 8000 1400 8000
+Wire Wire Line
+	950  7650 950  8000
+Wire Wire Line
+	950  8000 1000 8000
+Connection ~ 950  7650
+Wire Wire Line
+	950  7650 1000 7650
+Wire Wire Line
+	950  8000 950  8400
+Wire Wire Line
+	950  8400 1000 8400
+Connection ~ 950  8000
+Wire Wire Line
+	1300 8400 1400 8400
+$Comp
+L power:GND #PWR06
+U 1 1 61AC5B41
+P 1700 8750
+F 0 "#PWR06" H 1700 8500 50  0001 C CNN
+F 1 "GND" H 1705 8577 50  0000 C CNN
+F 2 "" H 1700 8750 50  0001 C CNN
+F 3 "" H 1700 8750 50  0001 C CNN
+	1    1700 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 8650 1700 8700
+Wire Wire Line
+	1700 8700 1900 8700
+Wire Wire Line
+	1900 7650 1700 7650
+Connection ~ 1700 8700
+Wire Wire Line
+	1700 8700 1700 8750
+Wire Wire Line
+	1700 8000 1900 8000
+Wire Wire Line
+	1900 7650 1900 8000
+Connection ~ 1900 8000
+Wire Wire Line
+	1900 8000 1900 8700
+$Comp
+L Device:LED D9
+U 1 1 61ACBA10
+P 2850 3550
+F 0 "D9" H 2950 3600 50  0000 C CNN
+F 1 "WSP" H 2650 3600 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2850 3550 50  0001 C CNN
+F 3 "~" H 2850 3550 50  0001 C CNN
+	1    2850 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:EuroJack_Mono_3.5mm_Switched J4
+U 1 1 61ACBA1A
+P 2900 3950
+F 0 "J4" H 2928 4175 50  0000 C CNN
+F 1 "WASP_OUT" H 2928 4084 50  0000 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex" H 2900 3950 50  0001 C CNN
+F 3 "~" H 2900 3950 50  0001 C CNN
+	1    2900 3950
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 2700 4050
+$Comp
+L Device:R R14
+U 1 1 61ACBA25
+P 2450 3950
+F 0 "R14" V 2243 3950 50  0000 C CNN
+F 1 "O_R" V 2334 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 2380 3950 50  0001 C CNN
+F 3 "~" H 2450 3950 50  0001 C CNN
+	1    2450 3950
+	0    1    1    0   
+$EndComp
+Text GLabel 2200 4700 0    50   UnSpc ~ 0
+O5
+$Comp
+L Device:R R13
+U 1 1 61ACBA30
+P 2450 3550
+F 0 "R13" V 2243 3550 50  0000 C CNN
+F 1 "WSP_R" V 2334 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 2380 3550 50  0001 C CNN
+F 3 "~" H 2450 3550 50  0001 C CNN
+	1    2450 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D8
+U 1 1 61ACBA3A
+P 2850 3200
+F 0 "D8" H 2950 3250 50  0000 C CNN
+F 1 "LRV" H 2650 3250 50  0000 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 2850 3200 50  0001 C CNN
+F 3 "~" H 2850 3200 50  0001 C CNN
+	1    2850 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 61ACBA44
+P 2450 3200
+F 0 "R12" V 2243 3200 50  0000 C CNN
+F 1 "LRV_R" V 2334 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 2380 3200 50  0001 C CNN
+F 3 "~" H 2450 3200 50  0001 C CNN
+	1    2450 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 3200 2250 3200
+Wire Wire Line
+	2600 3200 2700 3200
+Wire Wire Line
+	2600 3550 2700 3550
+Wire Wire Line
+	2250 3200 2250 3550
+Wire Wire Line
+	2250 3550 2300 3550
+Connection ~ 2250 3200
+Wire Wire Line
+	2250 3200 2300 3200
+Wire Wire Line
+	2250 3550 2250 3950
+Wire Wire Line
+	2250 3950 2300 3950
+Connection ~ 2250 3550
+Wire Wire Line
+	2600 3950 2700 3950
+$Comp
+L power:GND #PWR07
+U 1 1 61ACBA59
+P 3000 4300
+F 0 "#PWR07" H 3000 4050 50  0001 C CNN
+F 1 "GND" H 3005 4127 50  0000 C CNN
+F 2 "" H 3000 4300 50  0001 C CNN
+F 3 "" H 3000 4300 50  0001 C CNN
+	1    3000 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4200 3000 4250
+Wire Wire Line
+	3000 4250 3200 4250
+Wire Wire Line
+	3200 3200 3000 3200
+Connection ~ 3000 4250
+Wire Wire Line
+	3000 4250 3000 4300
+Wire Wire Line
+	3000 3550 3200 3550
+Wire Wire Line
+	3200 3200 3200 3550
+Connection ~ 3200 3550
+Wire Wire Line
+	3200 3550 3200 4250
+$Comp
+L Device:LED D11
+U 1 1 61ACBA6C
+P 2850 5050
+F 0 "D11" H 2950 5100 50  0000 C CNN
+F 1 "WSP" H 2650 5100 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2850 5050 50  0001 C CNN
+F 3 "~" H 2850 5050 50  0001 C CNN
+	1    2850 5050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:EuroJack_Mono_3.5mm_Switched J5
+U 1 1 61ACBA76
+P 2900 5450
+F 0 "J5" H 2928 5675 50  0000 C CNN
+F 1 "WASP_OUT" H 2928 5584 50  0000 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex" H 2900 5450 50  0001 C CNN
+F 3 "~" H 2900 5450 50  0001 C CNN
+	1    2900 5450
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 2700 5550
+$Comp
+L Device:R R17
+U 1 1 61ACBA81
+P 2450 5450
+F 0 "R17" V 2243 5450 50  0000 C CNN
+F 1 "O_R" V 2334 5450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 2380 5450 50  0001 C CNN
+F 3 "~" H 2450 5450 50  0001 C CNN
+	1    2450 5450
+	0    1    1    0   
+$EndComp
+Text GLabel 2200 6200 0    50   UnSpc ~ 0
+O6
+$Comp
+L Device:R R16
+U 1 1 61ACBA8C
+P 2450 5050
+F 0 "R16" V 2243 5050 50  0000 C CNN
+F 1 "WSP_R" V 2334 5050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 2380 5050 50  0001 C CNN
+F 3 "~" H 2450 5050 50  0001 C CNN
+	1    2450 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D10
+U 1 1 61ACBA96
+P 2850 4700
+F 0 "D10" H 2950 4750 50  0000 C CNN
+F 1 "LRV" H 2650 4750 50  0000 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 2850 4700 50  0001 C CNN
+F 3 "~" H 2850 4700 50  0001 C CNN
+	1    2850 4700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 61ACBAA0
+P 2450 4700
+F 0 "R15" V 2243 4700 50  0000 C CNN
+F 1 "LRV_R" V 2334 4700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 2380 4700 50  0001 C CNN
+F 3 "~" H 2450 4700 50  0001 C CNN
+	1    2450 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 4700 2250 4700
+Wire Wire Line
+	2600 4700 2700 4700
+Wire Wire Line
+	2600 5050 2700 5050
+Wire Wire Line
+	2250 4700 2250 5050
+Wire Wire Line
+	2250 5050 2300 5050
+Connection ~ 2250 4700
+Wire Wire Line
+	2250 4700 2300 4700
+Wire Wire Line
+	2250 5050 2250 5450
+Wire Wire Line
+	2250 5450 2300 5450
+Connection ~ 2250 5050
+Wire Wire Line
+	2600 5450 2700 5450
+$Comp
+L power:GND #PWR08
+U 1 1 61ACBAB5
+P 3000 5800
+F 0 "#PWR08" H 3000 5550 50  0001 C CNN
+F 1 "GND" H 3005 5627 50  0000 C CNN
+F 2 "" H 3000 5800 50  0001 C CNN
+F 3 "" H 3000 5800 50  0001 C CNN
+	1    3000 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5700 3000 5750
+Wire Wire Line
+	3000 5750 3200 5750
+Wire Wire Line
+	3200 4700 3000 4700
+Connection ~ 3000 5750
+Wire Wire Line
+	3000 5750 3000 5800
+Wire Wire Line
+	3000 5050 3200 5050
+Wire Wire Line
+	3200 4700 3200 5050
+Connection ~ 3200 5050
+Wire Wire Line
+	3200 5050 3200 5750
+$Comp
+L Device:LED D13
+U 1 1 61ACBAC8
+P 2850 6550
+F 0 "D13" H 2950 6600 50  0000 C CNN
+F 1 "WSP" H 2650 6600 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2850 6550 50  0001 C CNN
+F 3 "~" H 2850 6550 50  0001 C CNN
+	1    2850 6550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:EuroJack_Mono_3.5mm_Switched J6
+U 1 1 61ACBAD2
+P 2900 6950
+F 0 "J6" H 2928 7175 50  0000 C CNN
+F 1 "WASP_OUT" H 2928 7084 50  0000 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex" H 2900 6950 50  0001 C CNN
+F 3 "~" H 2900 6950 50  0001 C CNN
+	1    2900 6950
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 2700 7050
+$Comp
+L Device:R R20
+U 1 1 61ACBADD
+P 2450 6950
+F 0 "R20" V 2243 6950 50  0000 C CNN
+F 1 "O_R" V 2334 6950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 2380 6950 50  0001 C CNN
+F 3 "~" H 2450 6950 50  0001 C CNN
+	1    2450 6950
+	0    1    1    0   
+$EndComp
+Text GLabel 2200 7700 0    50   UnSpc ~ 0
+O7
+$Comp
+L Device:R R19
+U 1 1 61ACBAE8
+P 2450 6550
+F 0 "R19" V 2243 6550 50  0000 C CNN
+F 1 "WSP_R" V 2334 6550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 2380 6550 50  0001 C CNN
+F 3 "~" H 2450 6550 50  0001 C CNN
+	1    2450 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D12
+U 1 1 61ACBAF2
+P 2850 6200
+F 0 "D12" H 2950 6250 50  0000 C CNN
+F 1 "LRV" H 2650 6250 50  0000 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 2850 6200 50  0001 C CNN
+F 3 "~" H 2850 6200 50  0001 C CNN
+	1    2850 6200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 61ACBAFC
+P 2450 6200
+F 0 "R18" V 2243 6200 50  0000 C CNN
+F 1 "LRV_R" V 2334 6200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 2380 6200 50  0001 C CNN
+F 3 "~" H 2450 6200 50  0001 C CNN
+	1    2450 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 6200 2250 6200
+Wire Wire Line
+	2600 6200 2700 6200
+Wire Wire Line
+	2600 6550 2700 6550
+Wire Wire Line
+	2250 6200 2250 6550
+Wire Wire Line
+	2250 6550 2300 6550
+Connection ~ 2250 6200
+Wire Wire Line
+	2250 6200 2300 6200
+Wire Wire Line
+	2250 6550 2250 6950
+Wire Wire Line
+	2250 6950 2300 6950
+Connection ~ 2250 6550
+Wire Wire Line
+	2600 6950 2700 6950
+$Comp
+L power:GND #PWR09
+U 1 1 61ACBB11
+P 3000 7300
+F 0 "#PWR09" H 3000 7050 50  0001 C CNN
+F 1 "GND" H 3005 7127 50  0000 C CNN
+F 2 "" H 3000 7300 50  0001 C CNN
+F 3 "" H 3000 7300 50  0001 C CNN
+	1    3000 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 7200 3000 7250
+Wire Wire Line
+	3000 7250 3200 7250
+Wire Wire Line
+	3200 6200 3000 6200
+Connection ~ 3000 7250
+Wire Wire Line
+	3000 7250 3000 7300
+Wire Wire Line
+	3000 6550 3200 6550
+Wire Wire Line
+	3200 6200 3200 6550
+Connection ~ 3200 6550
+Wire Wire Line
+	3200 6550 3200 7250
+$Comp
+L Device:LED D15
+U 1 1 61ACBB24
+P 2850 8050
+F 0 "D15" H 2950 8100 50  0000 C CNN
+F 1 "WSP" H 2650 8100 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2850 8050 50  0001 C CNN
+F 3 "~" H 2850 8050 50  0001 C CNN
+	1    2850 8050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:EuroJack_Mono_3.5mm_Switched J7
+U 1 1 61ACBB2E
+P 2900 8450
+F 0 "J7" H 2928 8675 50  0000 C CNN
+F 1 "WASP_OUT" H 2928 8584 50  0000 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex" H 2900 8450 50  0001 C CNN
+F 3 "~" H 2900 8450 50  0001 C CNN
+	1    2900 8450
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 2700 8550
+$Comp
+L Device:R R23
+U 1 1 61ACBB39
+P 2450 8450
+F 0 "R23" V 2243 8450 50  0000 C CNN
+F 1 "O_R" V 2334 8450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 2380 8450 50  0001 C CNN
+F 3 "~" H 2450 8450 50  0001 C CNN
+	1    2450 8450
+	0    1    1    0   
+$EndComp
+Text GLabel 3750 3200 0    50   UnSpc ~ 0
+O8
+$Comp
+L Device:R R22
+U 1 1 61ACBB44
+P 2450 8050
+F 0 "R22" V 2243 8050 50  0000 C CNN
+F 1 "WSP_R" V 2334 8050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 2380 8050 50  0001 C CNN
+F 3 "~" H 2450 8050 50  0001 C CNN
+	1    2450 8050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D14
+U 1 1 61ACBB4E
+P 2850 7700
+F 0 "D14" H 2950 7750 50  0000 C CNN
+F 1 "LRV" H 2650 7750 50  0000 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 2850 7700 50  0001 C CNN
+F 3 "~" H 2850 7700 50  0001 C CNN
+	1    2850 7700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 61ACBB58
+P 2450 7700
+F 0 "R21" V 2243 7700 50  0000 C CNN
+F 1 "LRV_R" V 2334 7700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 2380 7700 50  0001 C CNN
+F 3 "~" H 2450 7700 50  0001 C CNN
+	1    2450 7700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 7700 2250 7700
+Wire Wire Line
+	2600 7700 2700 7700
+Wire Wire Line
+	2600 8050 2700 8050
+Wire Wire Line
+	2250 7700 2250 8050
+Wire Wire Line
+	2250 8050 2300 8050
+Connection ~ 2250 7700
+Wire Wire Line
+	2250 7700 2300 7700
+Wire Wire Line
+	2250 8050 2250 8450
+Wire Wire Line
+	2250 8450 2300 8450
+Connection ~ 2250 8050
+Wire Wire Line
+	2600 8450 2700 8450
+$Comp
+L power:GND #PWR010
+U 1 1 61ACBB6D
+P 3000 8800
+F 0 "#PWR010" H 3000 8550 50  0001 C CNN
+F 1 "GND" H 3005 8627 50  0000 C CNN
+F 2 "" H 3000 8800 50  0001 C CNN
+F 3 "" H 3000 8800 50  0001 C CNN
+	1    3000 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 8700 3000 8750
+Wire Wire Line
+	3000 8750 3200 8750
+Wire Wire Line
+	3200 7700 3000 7700
+Connection ~ 3000 8750
+Wire Wire Line
+	3000 8750 3000 8800
+Wire Wire Line
+	3000 8050 3200 8050
+Wire Wire Line
+	3200 7700 3200 8050
+Connection ~ 3200 8050
+Wire Wire Line
+	3200 8050 3200 8750
+$Comp
+L power:+5V #PWR011
+U 1 1 61B788BA
+P 3850 2100
+F 0 "#PWR011" H 3850 1950 50  0001 C CNN
+F 1 "+5V" V 3865 2228 50  0000 L CNN
+F 2 "" H 3850 2100 50  0001 C CNN
+F 3 "" H 3850 2100 50  0001 C CNN
+	1    3850 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3950 1900 3900 1900
+Wire Wire Line
+	3950 1800 3900 1800
+Wire Wire Line
+	3950 1700 3900 1700
+Wire Wire Line
+	3950 1600 3900 1600
+Wire Wire Line
+	3950 1500 3900 1500
+Wire Wire Line
+	3950 1400 3900 1400
+Wire Wire Line
+	3950 1300 3900 1300
+Wire Wire Line
+	3950 1200 3900 1200
+Text GLabel 3900 1900 0    50   UnSpc ~ 0
+T15
+Text GLabel 3900 1800 0    50   UnSpc ~ 0
+T14
+Text GLabel 3900 1700 0    50   UnSpc ~ 0
+T13
+Text GLabel 3900 1600 0    50   UnSpc ~ 0
+T12
+Text GLabel 3900 1500 0    50   UnSpc ~ 0
+T11
+Text GLabel 3900 1400 0    50   UnSpc ~ 0
+T10
+Text GLabel 3900 1300 0    50   UnSpc ~ 0
+T9
+Wire Wire Line
+	4450 900  4450 850 
+$Comp
+L power:+5V #PWR012
+U 1 1 61B788D5
+P 4450 850
+F 0 "#PWR012" H 4450 700 50  0001 C CNN
+F 1 "+5V" H 4465 1023 50  0000 C CNN
+F 2 "" H 4450 850 50  0001 C CNN
+F 3 "" H 4450 850 50  0001 C CNN
+	1    4450 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 61B788DF
+P 4450 2600
+F 0 "#PWR013" H 4450 2350 50  0001 C CNN
+F 1 "GND" H 4455 2427 50  0000 C CNN
+F 2 "" H 4450 2600 50  0001 C CNN
+F 3 "" H 4450 2600 50  0001 C CNN
+	1    4450 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC245 U1
+U 1 1 61B788E9
+P 4450 1700
+F 0 "U1" H 4200 2350 50  0000 C CNN
+F 1 "74HC245" H 4700 2350 50  0000 C CNN
+F 2 "Package_SO:SO-20_12.8x7.5mm_P1.27mm" H 4450 1700 50  0001 C CNN
+F 3 "C5625" H 4450 1700 50  0001 C CNN
+	1    4450 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2100 3950 2100
+Wire Wire Line
+	4450 2500 4450 2550
+Wire Wire Line
+	4450 2550 3950 2550
+Wire Wire Line
+	3950 2550 3950 2200
+Connection ~ 4450 2550
+Wire Wire Line
+	4450 2550 4450 2600
+$Comp
+L Device:LED D17
+U 1 1 61B788F9
+P 4400 3550
+F 0 "D17" H 4500 3600 50  0000 C CNN
+F 1 "WSP" H 4200 3600 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4400 3550 50  0001 C CNN
+F 3 "~" H 4400 3550 50  0001 C CNN
+	1    4400 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:EuroJack_Mono_3.5mm_Switched J8
+U 1 1 61B78903
+P 4450 3950
+F 0 "J8" H 4478 4175 50  0000 C CNN
+F 1 "WASP_OUT" H 4478 4084 50  0000 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex" H 4450 3950 50  0001 C CNN
+F 3 "~" H 4450 3950 50  0001 C CNN
+	1    4450 3950
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 4250 4050
+$Comp
+L Device:R R26
+U 1 1 61B7890E
+P 4000 3950
+F 0 "R26" V 3793 3950 50  0000 C CNN
+F 1 "O_R" V 3884 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 3930 3950 50  0001 C CNN
+F 3 "~" H 4000 3950 50  0001 C CNN
+	1    4000 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 1900 5000 1900
+Wire Wire Line
+	4950 1800 5000 1800
+Wire Wire Line
+	4950 1700 5000 1700
+Wire Wire Line
+	4950 1600 5000 1600
+Wire Wire Line
+	4950 1500 5000 1500
+Wire Wire Line
+	4950 1400 5000 1400
+Wire Wire Line
+	4950 1300 5000 1300
+Wire Wire Line
+	4950 1200 5000 1200
+Text GLabel 5000 1900 2    50   UnSpc ~ 0
+O15
+Text GLabel 5000 1800 2    50   UnSpc ~ 0
+O14
+Text GLabel 5000 1700 2    50   UnSpc ~ 0
+O13
+Text GLabel 5000 1600 2    50   UnSpc ~ 0
+O12
+Text GLabel 5000 1500 2    50   UnSpc ~ 0
+O11
+Text GLabel 5000 1400 2    50   UnSpc ~ 0
+O10
+Text GLabel 5000 1300 2    50   UnSpc ~ 0
+O9
+Text GLabel 3750 4700 0    50   UnSpc ~ 0
+O9
+$Comp
+L Device:R R25
+U 1 1 61B78929
+P 4000 3550
+F 0 "R25" V 3793 3550 50  0000 C CNN
+F 1 "WSP_R" V 3884 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 3930 3550 50  0001 C CNN
+F 3 "~" H 4000 3550 50  0001 C CNN
+	1    4000 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D16
+U 1 1 61B78933
+P 4400 3200
+F 0 "D16" H 4500 3250 50  0000 C CNN
+F 1 "LRV" H 4200 3250 50  0000 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 4400 3200 50  0001 C CNN
+F 3 "~" H 4400 3200 50  0001 C CNN
+	1    4400 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 61B7893D
+P 4000 3200
+F 0 "R24" V 3793 3200 50  0000 C CNN
+F 1 "LRV_R" V 3884 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 3930 3200 50  0001 C CNN
+F 3 "~" H 4000 3200 50  0001 C CNN
+	1    4000 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 3200 3800 3200
+Wire Wire Line
+	4150 3200 4250 3200
+Wire Wire Line
+	4150 3550 4250 3550
+Wire Wire Line
+	3800 3200 3800 3550
+Wire Wire Line
+	3800 3550 3850 3550
+Connection ~ 3800 3200
+Wire Wire Line
+	3800 3200 3850 3200
+Wire Wire Line
+	3800 3550 3800 3950
+Wire Wire Line
+	3800 3950 3850 3950
+Connection ~ 3800 3550
+Wire Wire Line
+	4150 3950 4250 3950
+$Comp
+L power:GND #PWR014
+U 1 1 61B78952
+P 4550 4300
+F 0 "#PWR014" H 4550 4050 50  0001 C CNN
+F 1 "GND" H 4555 4127 50  0000 C CNN
+F 2 "" H 4550 4300 50  0001 C CNN
+F 3 "" H 4550 4300 50  0001 C CNN
+	1    4550 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4200 4550 4250
+Wire Wire Line
+	4550 4250 4750 4250
+Wire Wire Line
+	4750 3200 4550 3200
+Connection ~ 4550 4250
+Wire Wire Line
+	4550 4250 4550 4300
+Wire Wire Line
+	4550 3550 4750 3550
+Wire Wire Line
+	4750 3200 4750 3550
+Connection ~ 4750 3550
+Wire Wire Line
+	4750 3550 4750 4250
+$Comp
+L Device:LED D19
+U 1 1 61B78965
+P 4400 5050
+F 0 "D19" H 4500 5100 50  0000 C CNN
+F 1 "WSP" H 4200 5100 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4400 5050 50  0001 C CNN
+F 3 "~" H 4400 5050 50  0001 C CNN
+	1    4400 5050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:EuroJack_Mono_3.5mm_Switched J9
+U 1 1 61B7896F
+P 4450 5450
+F 0 "J9" H 4478 5675 50  0000 C CNN
+F 1 "WASP_OUT" H 4478 5584 50  0000 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex" H 4450 5450 50  0001 C CNN
+F 3 "~" H 4450 5450 50  0001 C CNN
+	1    4450 5450
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 4250 5550
+$Comp
+L Device:R R29
+U 1 1 61B7897A
+P 4000 5450
+F 0 "R29" V 3793 5450 50  0000 C CNN
+F 1 "O_R" V 3884 5450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 3930 5450 50  0001 C CNN
+F 3 "~" H 4000 5450 50  0001 C CNN
+	1    4000 5450
+	0    1    1    0   
+$EndComp
+Text GLabel 3750 6200 0    50   UnSpc ~ 0
+O10
+$Comp
+L Device:R R28
+U 1 1 61B78985
+P 4000 5050
+F 0 "R28" V 3793 5050 50  0000 C CNN
+F 1 "WSP_R" V 3884 5050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 3930 5050 50  0001 C CNN
+F 3 "~" H 4000 5050 50  0001 C CNN
+	1    4000 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D18
+U 1 1 61B7898F
+P 4400 4700
+F 0 "D18" H 4500 4750 50  0000 C CNN
+F 1 "LRV" H 4200 4750 50  0000 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 4400 4700 50  0001 C CNN
+F 3 "~" H 4400 4700 50  0001 C CNN
+	1    4400 4700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 61B78999
+P 4000 4700
+F 0 "R27" V 3793 4700 50  0000 C CNN
+F 1 "LRV_R" V 3884 4700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 3930 4700 50  0001 C CNN
+F 3 "~" H 4000 4700 50  0001 C CNN
+	1    4000 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 4700 3800 4700
+Wire Wire Line
+	4150 4700 4250 4700
+Wire Wire Line
+	4150 5050 4250 5050
+Wire Wire Line
+	3800 4700 3800 5050
+Wire Wire Line
+	3800 5050 3850 5050
+Connection ~ 3800 4700
+Wire Wire Line
+	3800 4700 3850 4700
+Wire Wire Line
+	3800 5050 3800 5450
+Wire Wire Line
+	3800 5450 3850 5450
+Connection ~ 3800 5050
+Wire Wire Line
+	4150 5450 4250 5450
+$Comp
+L power:GND #PWR015
+U 1 1 61B789AE
+P 4550 5800
+F 0 "#PWR015" H 4550 5550 50  0001 C CNN
+F 1 "GND" H 4555 5627 50  0000 C CNN
+F 2 "" H 4550 5800 50  0001 C CNN
+F 3 "" H 4550 5800 50  0001 C CNN
+	1    4550 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5700 4550 5750
+Wire Wire Line
+	4550 5750 4750 5750
+Wire Wire Line
+	4750 4700 4550 4700
+Connection ~ 4550 5750
+Wire Wire Line
+	4550 5750 4550 5800
+Wire Wire Line
+	4550 5050 4750 5050
+Wire Wire Line
+	4750 4700 4750 5050
+Connection ~ 4750 5050
+Wire Wire Line
+	4750 5050 4750 5750
+$Comp
+L Device:LED D21
+U 1 1 61B789C1
+P 4400 6550
+F 0 "D21" H 4500 6600 50  0000 C CNN
+F 1 "WSP" H 4200 6600 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4400 6550 50  0001 C CNN
+F 3 "~" H 4400 6550 50  0001 C CNN
+	1    4400 6550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:EuroJack_Mono_3.5mm_Switched J10
+U 1 1 61B789CB
+P 4450 6950
+F 0 "J10" H 4478 7175 50  0000 C CNN
+F 1 "WASP_OUT" H 4478 7084 50  0000 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex" H 4450 6950 50  0001 C CNN
+F 3 "~" H 4450 6950 50  0001 C CNN
+	1    4450 6950
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 4250 7050
+$Comp
+L Device:R R32
+U 1 1 61B789D6
+P 4000 6950
+F 0 "R32" V 3793 6950 50  0000 C CNN
+F 1 "O_R" V 3884 6950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 3930 6950 50  0001 C CNN
+F 3 "~" H 4000 6950 50  0001 C CNN
+	1    4000 6950
+	0    1    1    0   
+$EndComp
+Text GLabel 3750 7700 0    50   UnSpc ~ 0
+O11
+$Comp
+L Device:R R31
+U 1 1 61B789E1
+P 4000 6550
+F 0 "R31" V 3793 6550 50  0000 C CNN
+F 1 "WSP_R" V 3884 6550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 3930 6550 50  0001 C CNN
+F 3 "~" H 4000 6550 50  0001 C CNN
+	1    4000 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D20
+U 1 1 61B789EB
+P 4400 6200
+F 0 "D20" H 4500 6250 50  0000 C CNN
+F 1 "LRV" H 4200 6250 50  0000 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 4400 6200 50  0001 C CNN
+F 3 "~" H 4400 6200 50  0001 C CNN
+	1    4400 6200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R30
+U 1 1 61B789F5
+P 4000 6200
+F 0 "R30" V 3793 6200 50  0000 C CNN
+F 1 "LRV_R" V 3884 6200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 3930 6200 50  0001 C CNN
+F 3 "~" H 4000 6200 50  0001 C CNN
+	1    4000 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 6200 3800 6200
+Wire Wire Line
+	4150 6200 4250 6200
+Wire Wire Line
+	4150 6550 4250 6550
+Wire Wire Line
+	3800 6200 3800 6550
+Wire Wire Line
+	3800 6550 3850 6550
+Connection ~ 3800 6200
+Wire Wire Line
+	3800 6200 3850 6200
+Wire Wire Line
+	3800 6550 3800 6950
+Wire Wire Line
+	3800 6950 3850 6950
+Connection ~ 3800 6550
+Wire Wire Line
+	4150 6950 4250 6950
+$Comp
+L power:GND #PWR016
+U 1 1 61B78A0A
+P 4550 7300
+F 0 "#PWR016" H 4550 7050 50  0001 C CNN
+F 1 "GND" H 4555 7127 50  0000 C CNN
+F 2 "" H 4550 7300 50  0001 C CNN
+F 3 "" H 4550 7300 50  0001 C CNN
+	1    4550 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 7200 4550 7250
+Wire Wire Line
+	4550 7250 4750 7250
+Wire Wire Line
+	4750 6200 4550 6200
+Connection ~ 4550 7250
+Wire Wire Line
+	4550 7250 4550 7300
+Wire Wire Line
+	4550 6550 4750 6550
+Wire Wire Line
+	4750 6200 4750 6550
+Connection ~ 4750 6550
+Wire Wire Line
+	4750 6550 4750 7250
+$Comp
+L Device:LED D23
+U 1 1 61B78A1D
+P 4400 8050
+F 0 "D23" H 4500 8100 50  0000 C CNN
+F 1 "WSP" H 4200 8100 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4400 8050 50  0001 C CNN
+F 3 "~" H 4400 8050 50  0001 C CNN
+	1    4400 8050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:EuroJack_Mono_3.5mm_Switched J11
+U 1 1 61B78A27
+P 4450 8450
+F 0 "J11" H 4478 8675 50  0000 C CNN
+F 1 "WASP_OUT" H 4478 8584 50  0000 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex" H 4450 8450 50  0001 C CNN
+F 3 "~" H 4450 8450 50  0001 C CNN
+	1    4450 8450
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 4250 8550
+$Comp
+L Device:R R35
+U 1 1 61B78A32
+P 4000 8450
+F 0 "R35" V 3793 8450 50  0000 C CNN
+F 1 "O_R" V 3884 8450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 3930 8450 50  0001 C CNN
+F 3 "~" H 4000 8450 50  0001 C CNN
+	1    4000 8450
+	0    1    1    0   
+$EndComp
+Text GLabel 5050 3250 0    50   UnSpc ~ 0
+O12
+$Comp
+L Device:R R34
+U 1 1 61B78A3D
+P 4000 8050
+F 0 "R34" V 3793 8050 50  0000 C CNN
+F 1 "WSP_R" V 3884 8050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 3930 8050 50  0001 C CNN
+F 3 "~" H 4000 8050 50  0001 C CNN
+	1    4000 8050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D22
+U 1 1 61B78A47
+P 4400 7700
+F 0 "D22" H 4500 7750 50  0000 C CNN
+F 1 "LRV" H 4200 7750 50  0000 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 4400 7700 50  0001 C CNN
+F 3 "~" H 4400 7700 50  0001 C CNN
+	1    4400 7700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R33
+U 1 1 61B78A51
+P 4000 7700
+F 0 "R33" V 3793 7700 50  0000 C CNN
+F 1 "LRV_R" V 3884 7700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 3930 7700 50  0001 C CNN
+F 3 "~" H 4000 7700 50  0001 C CNN
+	1    4000 7700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 7700 3800 7700
+Wire Wire Line
+	4150 7700 4250 7700
+Wire Wire Line
+	4150 8050 4250 8050
+Wire Wire Line
+	3800 7700 3800 8050
+Wire Wire Line
+	3800 8050 3850 8050
+Connection ~ 3800 7700
+Wire Wire Line
+	3800 7700 3850 7700
+Wire Wire Line
+	3800 8050 3800 8450
+Wire Wire Line
+	3800 8450 3850 8450
+Connection ~ 3800 8050
+Wire Wire Line
+	4150 8450 4250 8450
+$Comp
+L power:GND #PWR017
+U 1 1 61B78A66
+P 4550 8800
+F 0 "#PWR017" H 4550 8550 50  0001 C CNN
+F 1 "GND" H 4555 8627 50  0000 C CNN
+F 2 "" H 4550 8800 50  0001 C CNN
+F 3 "" H 4550 8800 50  0001 C CNN
+	1    4550 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 8700 4550 8750
+Wire Wire Line
+	4550 8750 4750 8750
+Wire Wire Line
+	4750 7700 4550 7700
+Connection ~ 4550 8750
+Wire Wire Line
+	4550 8750 4550 8800
+Wire Wire Line
+	4550 8050 4750 8050
+Wire Wire Line
+	4750 7700 4750 8050
+Connection ~ 4750 8050
+Wire Wire Line
+	4750 8050 4750 8750
+$Comp
+L Device:LED D25
+U 1 1 61B78A79
+P 5700 3600
+F 0 "D25" H 5800 3650 50  0000 C CNN
+F 1 "WSP" H 5500 3650 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5700 3600 50  0001 C CNN
+F 3 "~" H 5700 3600 50  0001 C CNN
+	1    5700 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:EuroJack_Mono_3.5mm_Switched J12
+U 1 1 61B78A83
+P 5750 4000
+F 0 "J12" H 5778 4225 50  0000 C CNN
+F 1 "WASP_OUT" H 5778 4134 50  0000 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex" H 5750 4000 50  0001 C CNN
+F 3 "~" H 5750 4000 50  0001 C CNN
+	1    5750 4000
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 5550 4100
+$Comp
+L Device:R R38
+U 1 1 61B78A8E
+P 5300 4000
+F 0 "R38" V 5093 4000 50  0000 C CNN
+F 1 "O_R" V 5184 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 5230 4000 50  0001 C CNN
+F 3 "~" H 5300 4000 50  0001 C CNN
+	1    5300 4000
+	0    1    1    0   
+$EndComp
+Text GLabel 5050 4750 0    50   UnSpc ~ 0
+O13
+$Comp
+L Device:R R37
+U 1 1 61B78A99
+P 5300 3600
+F 0 "R37" V 5093 3600 50  0000 C CNN
+F 1 "WSP_R" V 5184 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 5230 3600 50  0001 C CNN
+F 3 "~" H 5300 3600 50  0001 C CNN
+	1    5300 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D24
+U 1 1 61B78AA3
+P 5700 3250
+F 0 "D24" H 5800 3300 50  0000 C CNN
+F 1 "LRV" H 5500 3300 50  0000 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 5700 3250 50  0001 C CNN
+F 3 "~" H 5700 3250 50  0001 C CNN
+	1    5700 3250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R36
+U 1 1 61B78AAD
+P 5300 3250
+F 0 "R36" V 5093 3250 50  0000 C CNN
+F 1 "LRV_R" V 5184 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 5230 3250 50  0001 C CNN
+F 3 "~" H 5300 3250 50  0001 C CNN
+	1    5300 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 3250 5100 3250
+Wire Wire Line
+	5450 3250 5550 3250
+Wire Wire Line
+	5450 3600 5550 3600
+Wire Wire Line
+	5100 3250 5100 3600
+Wire Wire Line
+	5100 3600 5150 3600
+Connection ~ 5100 3250
+Wire Wire Line
+	5100 3250 5150 3250
+Wire Wire Line
+	5100 3600 5100 4000
+Wire Wire Line
+	5100 4000 5150 4000
+Connection ~ 5100 3600
+Wire Wire Line
+	5450 4000 5550 4000
+$Comp
+L power:GND #PWR018
+U 1 1 61B78AC2
+P 5850 4350
+F 0 "#PWR018" H 5850 4100 50  0001 C CNN
+F 1 "GND" H 5855 4177 50  0000 C CNN
+F 2 "" H 5850 4350 50  0001 C CNN
+F 3 "" H 5850 4350 50  0001 C CNN
+	1    5850 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 4250 5850 4300
+Wire Wire Line
+	5850 4300 6050 4300
+Wire Wire Line
+	6050 3250 5850 3250
+Connection ~ 5850 4300
+Wire Wire Line
+	5850 4300 5850 4350
+Wire Wire Line
+	5850 3600 6050 3600
+Wire Wire Line
+	6050 3250 6050 3600
+Connection ~ 6050 3600
+Wire Wire Line
+	6050 3600 6050 4300
+$Comp
+L Device:LED D27
+U 1 1 61B78AD5
+P 5700 5100
+F 0 "D27" H 5800 5150 50  0000 C CNN
+F 1 "WSP" H 5500 5150 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5700 5100 50  0001 C CNN
+F 3 "~" H 5700 5100 50  0001 C CNN
+	1    5700 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:EuroJack_Mono_3.5mm_Switched J13
+U 1 1 61B78ADF
+P 5750 5500
+F 0 "J13" H 5778 5725 50  0000 C CNN
+F 1 "WASP_OUT" H 5778 5634 50  0000 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex" H 5750 5500 50  0001 C CNN
+F 3 "~" H 5750 5500 50  0001 C CNN
+	1    5750 5500
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 5550 5600
+$Comp
+L Device:R R41
+U 1 1 61B78AEA
+P 5300 5500
+F 0 "R41" V 5093 5500 50  0000 C CNN
+F 1 "O_R" V 5184 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 5230 5500 50  0001 C CNN
+F 3 "~" H 5300 5500 50  0001 C CNN
+	1    5300 5500
+	0    1    1    0   
+$EndComp
+Text GLabel 5050 6250 0    50   UnSpc ~ 0
+O14
+$Comp
+L Device:R R40
+U 1 1 61B78AF5
+P 5300 5100
+F 0 "R40" V 5093 5100 50  0000 C CNN
+F 1 "WSP_R" V 5184 5100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 5230 5100 50  0001 C CNN
+F 3 "~" H 5300 5100 50  0001 C CNN
+	1    5300 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D26
+U 1 1 61B78AFF
+P 5700 4750
+F 0 "D26" H 5800 4800 50  0000 C CNN
+F 1 "LRV" H 5500 4800 50  0000 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 5700 4750 50  0001 C CNN
+F 3 "~" H 5700 4750 50  0001 C CNN
+	1    5700 4750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R39
+U 1 1 61B78B09
+P 5300 4750
+F 0 "R39" V 5093 4750 50  0000 C CNN
+F 1 "LRV_R" V 5184 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 5230 4750 50  0001 C CNN
+F 3 "~" H 5300 4750 50  0001 C CNN
+	1    5300 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 4750 5100 4750
+Wire Wire Line
+	5450 4750 5550 4750
+Wire Wire Line
+	5450 5100 5550 5100
+Wire Wire Line
+	5100 4750 5100 5100
+Wire Wire Line
+	5100 5100 5150 5100
+Connection ~ 5100 4750
+Wire Wire Line
+	5100 4750 5150 4750
+Wire Wire Line
+	5100 5100 5100 5500
+Wire Wire Line
+	5100 5500 5150 5500
+Connection ~ 5100 5100
+Wire Wire Line
+	5450 5500 5550 5500
+$Comp
+L power:GND #PWR019
+U 1 1 61B78B1E
+P 5850 5850
+F 0 "#PWR019" H 5850 5600 50  0001 C CNN
+F 1 "GND" H 5855 5677 50  0000 C CNN
+F 2 "" H 5850 5850 50  0001 C CNN
+F 3 "" H 5850 5850 50  0001 C CNN
+	1    5850 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 5750 5850 5800
+Wire Wire Line
+	5850 5800 6050 5800
+Wire Wire Line
+	6050 4750 5850 4750
+Connection ~ 5850 5800
+Wire Wire Line
+	5850 5800 5850 5850
+Wire Wire Line
+	5850 5100 6050 5100
+Wire Wire Line
+	6050 4750 6050 5100
+Connection ~ 6050 5100
+Wire Wire Line
+	6050 5100 6050 5800
+$Comp
+L Device:LED D29
+U 1 1 61B78B31
+P 5700 6600
+F 0 "D29" H 5800 6650 50  0000 C CNN
+F 1 "WSP" H 5500 6650 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5700 6600 50  0001 C CNN
+F 3 "~" H 5700 6600 50  0001 C CNN
+	1    5700 6600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:EuroJack_Mono_3.5mm_Switched J14
+U 1 1 61B78B3B
+P 5750 7000
+F 0 "J14" H 5778 7225 50  0000 C CNN
+F 1 "WASP_OUT" H 5778 7134 50  0000 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex" H 5750 7000 50  0001 C CNN
+F 3 "~" H 5750 7000 50  0001 C CNN
+	1    5750 7000
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 5550 7100
+$Comp
+L Device:R R44
+U 1 1 61B78B46
+P 5300 7000
+F 0 "R44" V 5093 7000 50  0000 C CNN
+F 1 "O_R" V 5184 7000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 5230 7000 50  0001 C CNN
+F 3 "~" H 5300 7000 50  0001 C CNN
+	1    5300 7000
+	0    1    1    0   
+$EndComp
+Text GLabel 5050 7750 0    50   UnSpc ~ 0
+O15
+$Comp
+L Device:R R43
+U 1 1 61B78B51
+P 5300 6600
+F 0 "R43" V 5093 6600 50  0000 C CNN
+F 1 "WSP_R" V 5184 6600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 5230 6600 50  0001 C CNN
+F 3 "~" H 5300 6600 50  0001 C CNN
+	1    5300 6600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D28
+U 1 1 61B78B5B
+P 5700 6250
+F 0 "D28" H 5800 6300 50  0000 C CNN
+F 1 "LRV" H 5500 6300 50  0000 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 5700 6250 50  0001 C CNN
+F 3 "~" H 5700 6250 50  0001 C CNN
+	1    5700 6250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R42
+U 1 1 61B78B65
+P 5300 6250
+F 0 "R42" V 5093 6250 50  0000 C CNN
+F 1 "LRV_R" V 5184 6250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 5230 6250 50  0001 C CNN
+F 3 "~" H 5300 6250 50  0001 C CNN
+	1    5300 6250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 6250 5100 6250
+Wire Wire Line
+	5450 6250 5550 6250
+Wire Wire Line
+	5450 6600 5550 6600
+Wire Wire Line
+	5100 6250 5100 6600
+Wire Wire Line
+	5100 6600 5150 6600
+Connection ~ 5100 6250
+Wire Wire Line
+	5100 6250 5150 6250
+Wire Wire Line
+	5100 6600 5100 7000
+Wire Wire Line
+	5100 7000 5150 7000
+Connection ~ 5100 6600
+Wire Wire Line
+	5450 7000 5550 7000
+$Comp
+L power:GND #PWR020
+U 1 1 61B78B7A
+P 5850 7350
+F 0 "#PWR020" H 5850 7100 50  0001 C CNN
+F 1 "GND" H 5855 7177 50  0000 C CNN
+F 2 "" H 5850 7350 50  0001 C CNN
+F 3 "" H 5850 7350 50  0001 C CNN
+	1    5850 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 7250 5850 7300
+Wire Wire Line
+	5850 7300 6050 7300
+Wire Wire Line
+	6050 6250 5850 6250
+Connection ~ 5850 7300
+Wire Wire Line
+	5850 7300 5850 7350
+Wire Wire Line
+	5850 6600 6050 6600
+Wire Wire Line
+	6050 6250 6050 6600
+Connection ~ 6050 6600
+Wire Wire Line
+	6050 6600 6050 7300
+$Comp
+L Device:LED D31
+U 1 1 61B78B8D
+P 5700 8100
+F 0 "D31" H 5800 8150 50  0000 C CNN
+F 1 "WSP" H 5500 8150 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5700 8100 50  0001 C CNN
+F 3 "~" H 5700 8100 50  0001 C CNN
+	1    5700 8100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:EuroJack_Mono_3.5mm_Switched J15
+U 1 1 61B78B97
+P 5750 8500
+F 0 "J15" H 5778 8725 50  0000 C CNN
+F 1 "WASP_OUT" H 5778 8634 50  0000 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex" H 5750 8500 50  0001 C CNN
+F 3 "~" H 5750 8500 50  0001 C CNN
+	1    5750 8500
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 5550 8600
+$Comp
+L Device:R R47
+U 1 1 61B78BA2
+P 5300 8500
+F 0 "R47" V 5093 8500 50  0000 C CNN
+F 1 "O_R" V 5184 8500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 5230 8500 50  0001 C CNN
+F 3 "~" H 5300 8500 50  0001 C CNN
+	1    5300 8500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R46
+U 1 1 61B78BAD
+P 5300 8100
+F 0 "R46" V 5093 8100 50  0000 C CNN
+F 1 "WSP_R" V 5184 8100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 5230 8100 50  0001 C CNN
+F 3 "~" H 5300 8100 50  0001 C CNN
+	1    5300 8100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D30
+U 1 1 61B78BB7
+P 5700 7750
+F 0 "D30" H 5800 7800 50  0000 C CNN
+F 1 "LRV" H 5500 7800 50  0000 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 5700 7750 50  0001 C CNN
+F 3 "~" H 5700 7750 50  0001 C CNN
+	1    5700 7750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R45
+U 1 1 61B78BC1
+P 5300 7750
+F 0 "R45" V 5093 7750 50  0000 C CNN
+F 1 "LRV_R" V 5184 7750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 5230 7750 50  0001 C CNN
+F 3 "~" H 5300 7750 50  0001 C CNN
+	1    5300 7750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 7750 5100 7750
+Wire Wire Line
+	5450 7750 5550 7750
+Wire Wire Line
+	5450 8100 5550 8100
+Wire Wire Line
+	5100 7750 5100 8100
+Wire Wire Line
+	5100 8100 5150 8100
+Connection ~ 5100 7750
+Wire Wire Line
+	5100 7750 5150 7750
+Wire Wire Line
+	5100 8100 5100 8500
+Wire Wire Line
+	5100 8500 5150 8500
+Connection ~ 5100 8100
+Wire Wire Line
+	5450 8500 5550 8500
+$Comp
+L power:GND #PWR021
+U 1 1 61B78BD6
+P 5850 8850
+F 0 "#PWR021" H 5850 8600 50  0001 C CNN
+F 1 "GND" H 5855 8677 50  0000 C CNN
+F 2 "" H 5850 8850 50  0001 C CNN
+F 3 "" H 5850 8850 50  0001 C CNN
+	1    5850 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 8750 5850 8800
+Wire Wire Line
+	5850 8800 6050 8800
+Wire Wire Line
+	6050 7750 5850 7750
+Connection ~ 5850 8800
+Wire Wire Line
+	5850 8800 5850 8850
+Wire Wire Line
+	5850 8100 6050 8100
+Wire Wire Line
+	6050 7750 6050 8100
+Connection ~ 6050 8100
+Wire Wire Line
+	6050 8100 6050 8800
+Text GLabel 900  3150 0    50   UnSpc ~ 0
+O0
+Text GLabel 1050 1150 0    50   UnSpc ~ 0
+T0
+Text GLabel 2150 1150 2    50   UnSpc ~ 0
+O0
+$Comp
+L Regulator_Linear:KA78M05_TO252 U3
+U 1 1 64C6CBFE
+P 13350 1750
+F 0 "U3" H 13350 1992 50  0000 C CNN
+F 1 "L78M05ABDT-TR" H 13350 1901 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 13350 1975 50  0001 C CIN
+F 3 "C58069" H 13350 1700 50  0001 C CNN
+	1    13350 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR0103
+U 1 1 64C72189
+P 12950 1650
+F 0 "#PWR0103" H 12950 1500 50  0001 C CNN
+F 1 "VDD" H 12967 1823 50  0000 C CNN
+F 2 "" H 12950 1650 50  0001 C CNN
+F 3 "" H 12950 1650 50  0001 C CNN
+	1    12950 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12950 1650 12950 1750
+Wire Wire Line
+	12950 1750 13050 1750
+$Comp
+L power:GND #PWR0104
+U 1 1 64D29291
+P 13750 2400
+F 0 "#PWR0104" H 13750 2150 50  0001 C CNN
+F 1 "GND" H 13755 2227 50  0000 C CNN
+F 2 "" H 13750 2400 50  0001 C CNN
+F 3 "" H 13750 2400 50  0001 C CNN
+	1    13750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0105
+U 1 1 64DE1E2B
+P 13950 1750
+F 0 "#PWR0105" H 13950 1600 50  0001 C CNN
+F 1 "+5V" V 13965 1878 50  0000 L CNN
+F 2 "" H 13950 1750 50  0001 C CNN
+F 3 "" H 13950 1750 50  0001 C CNN
+	1    13950 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13650 1750 13750 1750
+Wire Wire Line
+	13750 2300 13750 2350
+Wire Wire Line
+	13750 2350 13350 2350
+Wire Wire Line
+	13350 2050 13350 2350
+Connection ~ 13750 2350
+Wire Wire Line
+	13750 2350 13750 2400
+Wire Wire Line
+	12950 1750 12950 1800
+Connection ~ 12950 1750
+Wire Wire Line
+	12950 2300 12950 2350
+Wire Wire Line
+	12950 2350 13350 2350
+Connection ~ 13350 2350
+Wire Wire Line
+	13750 1750 13750 2000
+Connection ~ 13750 1750
+Wire Wire Line
+	13750 1750 13950 1750
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 658396A3
+P 12650 1650
+F 0 "#FLG0101" H 12650 1725 50  0001 C CNN
+F 1 "PWR_FLAG" H 12650 1823 50  0000 C CNN
+F 2 "" H 12650 1650 50  0001 C CNN
+F 3 "~" H 12650 1650 50  0001 C CNN
+	1    12650 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12650 1650 12650 1800
+Wire Wire Line
+	12650 1800 12950 1800
+Connection ~ 12950 1800
+Wire Wire Line
+	12950 1800 12950 2000
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 65B2D2DA
+P 12950 2400
+F 0 "#FLG0102" H 12950 2475 50  0001 C CNN
+F 1 "PWR_FLAG" H 12950 2573 50  0000 C CNN
+F 2 "" H 12950 2400 50  0001 C CNN
+F 3 "~" H 12950 2400 50  0001 C CNN
+	1    12950 2400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12950 2350 12950 2400
+Connection ~ 12950 2350
+$Comp
+L Device:C C2
+U 1 1 621F2147
+P 13750 2150
+F 0 "C2" H 13865 2196 50  0000 L CNN
+F 1 "0.1uf" H 13865 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" H 13788 2000 50  0001 C CNN
+F 3 "C14663" H 13750 2150 50  0001 C CNN
+	1    13750 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 621F2694
+P 12950 2150
+F 0 "C1" H 13065 2196 50  0000 L CNN
+F 1 "0.33uf" H 13065 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" H 12988 2000 50  0001 C CNN
+F 3 "C1615" H 12950 2150 50  0001 C CNN
+	1    12950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L MeowWolf_Templates:TEENSY_3.2_MINIMAL U5
+U 1 1 622474DD
+P 10100 2050
+F 0 "U5" H 10125 3287 60  0000 C CNN
+F 1 "TEENSY_3.2_MINIMAL" H 10125 3181 60  0000 C CNN
+F 2 "MeowWolf_Templates:TEENSY_LC_NO_SILK" H 10100 1500 60  0001 C CNN
+F 3 "" H 10100 1500 60  0000 C CNN
+	1    10100 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 7350 8950 7350
+Text GLabel 8900 7350 0    50   UnSpc ~ 0
+DENS_OUT
+$Comp
+L Amplifier_Operational:MCP6002-xP U4
+U 1 1 6238E4ED
+P 9250 7450
+F 0 "U4" H 9250 7083 50  0000 C CNN
+F 1 "MCP6002-xP" H 9250 7174 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9250 7450 50  0001 C CNN
+F 3 "C7377" H 9250 7450 50  0001 C CNN
+	1    9250 7450
+	1    0    0    -1  
+$EndComp
+Connection ~ 9650 7450
+Wire Wire Line
+	9650 7450 9750 7450
+Text GLabel 10050 8700 2    50   Input ~ 0
+DENSITY_CV
+Wire Wire Line
+	9650 7450 9550 7450
+Wire Wire Line
+	8950 7550 8850 7550
+Wire Wire Line
+	8850 7550 8850 7950
+Wire Wire Line
+	8850 7950 9100 7950
+Connection ~ 8850 7950
+Wire Wire Line
+	8850 7950 8850 8000
+Wire Wire Line
+	9400 7950 9650 7950
+Wire Wire Line
+	9650 7450 9650 7950
+$Comp
+L power:GND #PWR0101
+U 1 1 6242EC22
+P 8850 8350
+F 0 "#PWR0101" H 8850 8100 50  0001 C CNN
+F 1 "GND" H 8850 8200 50  0000 C CNN
+F 2 "" H 8850 8350 50  0001 C CNN
+F 3 "" H 8850 8350 50  0001 C CNN
+	1    8850 8350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 8300 8850 8350
+$Comp
+L Device:R R52
+U 1 1 623D3E73
+P 8850 8150
+F 0 "R52" V 8643 8150 50  0000 C CNN
+F 1 "100k" V 8734 8150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 8780 8150 50  0001 C CNN
+F 3 "~" H 8850 8150 50  0001 C CNN
+	1    8850 8150
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R54
+U 1 1 623D332A
+P 9250 7950
+F 0 "R54" H 9180 7904 50  0000 R CNN
+F 1 "100k" H 9180 7995 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 9180 7950 50  0001 C CNN
+F 3 "~" H 9250 7950 50  0001 C CNN
+	1    9250 7950
+	0    1    -1   0   
+$EndComp
+Connection ~ 8850 5700
+Wire Wire Line
+	8700 5700 8850 5700
+Connection ~ 9000 5700
+Wire Wire Line
+	8850 5700 8850 5800
+Wire Wire Line
+	9000 5700 8900 5700
+Wire Wire Line
+	9000 6150 9000 6200
+Connection ~ 9000 6150
+Wire Wire Line
+	8850 6150 8850 6100
+Wire Wire Line
+	9000 6150 8850 6150
+Wire Wire Line
+	9000 6100 9000 6150
+$Comp
+L Amplifier_Operational:MCP6002-xP U2
+U 2 1 62548586
+P 9400 5600
+F 0 "U2" H 9400 5233 50  0000 C CNN
+F 1 "MCP6002-xP" H 9400 5324 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9400 5600 50  0001 C CNN
+F 3 "C7377" H 9400 5600 50  0001 C CNN
+	2    9400 5600
+	1    0    0    1   
+$EndComp
+Connection ~ 9800 5600
+Wire Wire Line
+	9800 5600 9900 5600
+Text GLabel 9900 5600 2    50   Input ~ 0
+DENSITY_CV
+$Comp
+L power:GND #PWR0102
+U 1 1 62548593
+P 9000 6200
+F 0 "#PWR0102" H 9000 5950 50  0001 C CNN
+F 1 "GND" H 9005 6027 50  0000 C CNN
+F 2 "" H 9000 6200 50  0001 C CNN
+F 3 "" H 9000 6200 50  0001 C CNN
+	1    9000 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 5600 9700 5600
+Wire Wire Line
+	9800 5150 9800 5600
+Wire Wire Line
+	9000 5150 9800 5150
+Wire Wire Line
+	9000 5500 9000 5150
+Wire Wire Line
+	9100 5500 9000 5500
+Wire Wire Line
+	9000 5700 9100 5700
+Wire Wire Line
+	9000 5800 9000 5700
+$Comp
+L Device:R R53
+U 1 1 625485A4
+P 9000 5950
+F 0 "R53" H 8930 5904 50  0000 R CNN
+F 1 "100k" H 8930 5995 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 8930 5950 50  0001 C CNN
+F 3 "~" H 9000 5950 50  0001 C CNN
+	1    9000 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R51
+U 1 1 625485AE
+P 8550 5700
+F 0 "R51" V 8343 5700 50  0000 C CNN
+F 1 "100k" V 8434 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 8480 5700 50  0001 C CNN
+F 3 "~" H 8550 5700 50  0001 C CNN
+	1    8550 5700
+	0    1    1    0   
+$EndComp
+NoConn ~ 9050 2600
+NoConn ~ 9050 2700
+NoConn ~ 9050 2800
+NoConn ~ 11200 1400
+NoConn ~ 11200 1500
+NoConn ~ 11200 1600
+NoConn ~ 11200 1700
+$Comp
+L power:+5V #PWR0106
+U 1 1 62681F13
+P 11300 1800
+F 0 "#PWR0106" H 11300 1650 50  0001 C CNN
+F 1 "+5V" V 11315 1928 50  0000 L CNN
+F 2 "" H 11300 1800 50  0001 C CNN
+F 3 "" H 11300 1800 50  0001 C CNN
+	1    11300 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11200 1800 11300 1800
+$Comp
+L Device:D D32
+U 1 1 626C3A76
+P 8850 4500
+F 0 "D32" H 8850 4716 50  0000 C CNN
+F 1 "SM4007PL" H 8850 4625 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 8850 4325 50  0001 C CNN
+F 3 "C64898" H 8850 4500 50  0001 C CNN
+	1    8850 4500
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:D D34
+U 1 1 626C47F3
+P 8900 4000
+F 0 "D34" H 8900 4216 50  0000 C CNN
+F 1 "SM4007PL" H 8900 4125 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 8900 3825 50  0001 C CNN
+F 3 "C64898" H 8900 4000 50  0001 C CNN
+	1    8900 4000
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8900 4150 8900 4250
+Connection ~ 8900 4250
+Wire Wire Line
+	8900 4250 8850 4250
+$Comp
+L power:+3.3V #PWR0107
+U 1 1 62706044
+P 8900 3800
+F 0 "#PWR0107" H 8900 3650 50  0001 C CNN
+F 1 "+3.3V" H 8915 3973 50  0000 C CNN
+F 2 "" H 8900 3800 50  0001 C CNN
+F 3 "" H 8900 3800 50  0001 C CNN
+	1    8900 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 3800 8900 3850
+$Comp
+L Device:D D35
+U 1 1 62726EFB
+P 8900 5450
+F 0 "D35" H 8900 5666 50  0000 C CNN
+F 1 "SM4007PL" H 8900 5575 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 8900 5275 50  0001 C CNN
+F 3 "C64898" H 8900 5450 50  0001 C CNN
+	1    8900 5450
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8900 5600 8900 5700
+$Comp
+L power:+3.3V #PWR0108
+U 1 1 62726F06
+P 8900 5250
+F 0 "#PWR0108" H 8900 5100 50  0001 C CNN
+F 1 "+3.3V" H 8915 5423 50  0000 C CNN
+F 2 "" H 8900 5250 50  0001 C CNN
+F 3 "" H 8900 5250 50  0001 C CNN
+	1    8900 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 5250 8900 5300
+Connection ~ 8900 5700
+Wire Wire Line
+	8900 5700 8850 5700
+$Comp
+L Device:D D33
+U 1 1 62749836
+P 8850 5950
+F 0 "D33" H 8850 6166 50  0000 C CNN
+F 1 "SM4007PL" H 8850 6075 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 8850 5775 50  0001 C CNN
+F 3 "C64898" H 8850 5950 50  0001 C CNN
+	1    8850 5950
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector:EuroJack_Mono_3.5mm_Switched J16
+U 1 1 627A0E2E
+P 8000 4250
+F 0 "J16" H 8028 4475 50  0000 C CNN
+F 1 "FM_IN" H 8028 4384 50  0000 C CNN
+F 2 "HammerheadAudio:EuroJack_MonoSW_THT_NOREF_Mask" H 8000 4250 50  0001 C CNN
+F 3 "~" H 8000 4250 50  0001 C CNN
+	1    8000 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 4250 8400 4250
+Text Label 8300 4250 1    50   ~ 0
+FM_IN
+$Comp
+L Connector:EuroJack_Mono_3.5mm_Switched J17
+U 1 1 627C694B
+P 8000 5700
+F 0 "J17" H 8028 5925 50  0000 C CNN
+F 1 "DENS_IN" H 8028 5834 50  0000 C CNN
+F 2 "HammerheadAudio:EuroJack_MonoSW_THT_NOREF_Mask" H 8000 5700 50  0001 C CNN
+F 3 "~" H 8000 5700 50  0001 C CNN
+	1    8000 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 5700 8400 5700
+Text Label 8300 5700 1    50   ~ 0
+DENS_IN
+$Comp
+L power:GND #PWR0109
+U 1 1 627EA204
+P 7900 6000
+F 0 "#PWR0109" H 7900 5750 50  0001 C CNN
+F 1 "GND" H 7905 5827 50  0000 C CNN
+F 2 "" H 7900 6000 50  0001 C CNN
+F 3 "" H 7900 6000 50  0001 C CNN
+	1    7900 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 627EA69F
+P 7900 4550
+F 0 "#PWR0110" H 7900 4300 50  0001 C CNN
+F 1 "GND" H 7905 4377 50  0000 C CNN
+F 2 "" H 7900 4550 50  0001 C CNN
+F 3 "" H 7900 4550 50  0001 C CNN
+	1    7900 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 4500 7900 4550
+Wire Wire Line
+	7900 5950 7900 6000
+NoConn ~ 8200 4350
+$Comp
+L Transistor_BJT:MMBT3904 Q1
+U 1 1 628E4C5D
+P 7550 6400
+F 0 "Q1" H 7741 6446 50  0000 L CNN
+F 1 "MMBT3904" H 7741 6355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7750 6325 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 7550 6400 50  0001 L CNN
+	1    7550 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R50
+U 1 1 62904FB9
+P 7850 6700
+F 0 "R50" V 7643 6700 50  0000 C CNN
+F 1 "1k" V 7734 6700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 7780 6700 50  0001 C CNN
+F 3 "~" H 7850 6700 50  0001 C CNN
+	1    7850 6700
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7650 6600 7650 6700
+Wire Wire Line
+	7650 6700 7700 6700
+$Comp
+L power:+5V #PWR0111
+U 1 1 62924F7D
+P 7650 6100
+F 0 "#PWR0111" H 7650 5950 50  0001 C CNN
+F 1 "+5V" V 7665 6228 50  0000 L CNN
+F 2 "" H 7650 6100 50  0001 C CNN
+F 3 "" H 7650 6100 50  0001 C CNN
+	1    7650 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 6100 7650 6200
+Text GLabel 7300 6400 0    50   Input ~ 0
+DENS_DETECT
+Wire Wire Line
+	7300 6400 7350 6400
+Wire Wire Line
+	8200 5800 8200 6700
+Wire Wire Line
+	8200 6700 8000 6700
+Text Label 8200 6700 0    50   ~ 0
+DENS_NORM
+$Comp
+L Device:R_POT_TRIM RV1
+U 1 1 629E5FAE
+P 11650 4050
+F 0 "RV1" V 11443 4050 50  0000 C CNN
+F 1 "MIN_DENS" V 11534 4050 50  0000 C CNN
+F 2 "Crossley_Footprints:SMD_TRIM_JLC" H 11650 4050 50  0001 C CNN
+F 3 "~" H 11650 4050 50  0001 C CNN
+	1    11650 4050
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0112
+U 1 1 629E6C8F
+P 11850 4050
+F 0 "#PWR0112" H 11850 3900 50  0001 C CNN
+F 1 "+3.3V" H 11865 4223 50  0000 C CNN
+F 2 "" H 11850 4050 50  0001 C CNN
+F 3 "" H 11850 4050 50  0001 C CNN
+	1    11850 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 629E7E3D
+P 11450 4050
+F 0 "#PWR0113" H 11450 3800 50  0001 C CNN
+F 1 "GND" H 11455 3877 50  0000 C CNN
+F 2 "" H 11450 4050 50  0001 C CNN
+F 3 "" H 11450 4050 50  0001 C CNN
+	1    11450 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11450 4050 11500 4050
+Wire Wire Line
+	11800 4050 11850 4050
+$Comp
+L Device:R_POT_TRIM RV4
+U 1 1 62A673F9
+P 12600 4050
+F 0 "RV4" V 12393 4050 50  0000 C CNN
+F 1 "MAX_DENS" V 12484 4050 50  0000 C CNN
+F 2 "Crossley_Footprints:SMD_TRIM_JLC" H 12600 4050 50  0001 C CNN
+F 3 "~" H 12600 4050 50  0001 C CNN
+	1    12600 4050
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0114
+U 1 1 62A67403
+P 12800 4050
+F 0 "#PWR0114" H 12800 3900 50  0001 C CNN
+F 1 "+3.3V" H 12815 4223 50  0000 C CNN
+F 2 "" H 12800 4050 50  0001 C CNN
+F 3 "" H 12800 4050 50  0001 C CNN
+	1    12800 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 62A6740D
+P 12400 4050
+F 0 "#PWR0115" H 12400 3800 50  0001 C CNN
+F 1 "GND" H 12405 3877 50  0000 C CNN
+F 2 "" H 12400 4050 50  0001 C CNN
+F 3 "" H 12400 4050 50  0001 C CNN
+	1    12400 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12400 4050 12450 4050
+Wire Wire Line
+	12750 4050 12800 4050
+$Comp
+L Device:R_POT_TRIM RV2
+U 1 1 62A88C54
+P 11650 4950
+F 0 "RV2" V 11443 4950 50  0000 C CNN
+F 1 "MIN_FREQ" V 11534 4950 50  0000 C CNN
+F 2 "Crossley_Footprints:SMD_TRIM_JLC" H 11650 4950 50  0001 C CNN
+F 3 "~" H 11650 4950 50  0001 C CNN
+	1    11650 4950
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0116
+U 1 1 62A88C5E
+P 11850 4950
+F 0 "#PWR0116" H 11850 4800 50  0001 C CNN
+F 1 "+3.3V" H 11865 5123 50  0000 C CNN
+F 2 "" H 11850 4950 50  0001 C CNN
+F 3 "" H 11850 4950 50  0001 C CNN
+	1    11850 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 62A88C68
+P 11450 4950
+F 0 "#PWR0117" H 11450 4700 50  0001 C CNN
+F 1 "GND" H 11455 4777 50  0000 C CNN
+F 2 "" H 11450 4950 50  0001 C CNN
+F 3 "" H 11450 4950 50  0001 C CNN
+	1    11450 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11450 4950 11500 4950
+Wire Wire Line
+	11800 4950 11850 4950
+$Comp
+L Device:R_POT_TRIM RV5
+U 1 1 62AAA736
+P 12600 4950
+F 0 "RV5" V 12393 4950 50  0000 C CNN
+F 1 "MAX_FREQ" V 12484 4950 50  0000 C CNN
+F 2 "Crossley_Footprints:SMD_TRIM_JLC" H 12600 4950 50  0001 C CNN
+F 3 "~" H 12600 4950 50  0001 C CNN
+	1    12600 4950
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0118
+U 1 1 62AAA740
+P 12800 4950
+F 0 "#PWR0118" H 12800 4800 50  0001 C CNN
+F 1 "+3.3V" H 12815 5123 50  0000 C CNN
+F 2 "" H 12800 4950 50  0001 C CNN
+F 3 "" H 12800 4950 50  0001 C CNN
+	1    12800 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 62AAA74A
+P 12400 4950
+F 0 "#PWR0119" H 12400 4700 50  0001 C CNN
+F 1 "GND" H 12405 4777 50  0000 C CNN
+F 2 "" H 12400 4950 50  0001 C CNN
+F 3 "" H 12400 4950 50  0001 C CNN
+	1    12400 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12400 4950 12450 4950
+Wire Wire Line
+	12750 4950 12800 4950
+$Comp
+L Device:R_POT_TRIM RV3
+U 1 1 62B0F4A9
+P 11650 5900
+F 0 "RV3" V 11443 5900 50  0000 C CNN
+F 1 "CHANGE_RATE" V 11534 5900 50  0000 C CNN
+F 2 "Crossley_Footprints:SMD_TRIM_JLC" H 11650 5900 50  0001 C CNN
+F 3 "~" H 11650 5900 50  0001 C CNN
+	1    11650 5900
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0120
+U 1 1 62B0F4B3
+P 11850 5900
+F 0 "#PWR0120" H 11850 5750 50  0001 C CNN
+F 1 "+3.3V" H 11865 6073 50  0000 C CNN
+F 2 "" H 11850 5900 50  0001 C CNN
+F 3 "" H 11850 5900 50  0001 C CNN
+	1    11850 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 62B0F4BD
+P 11450 5900
+F 0 "#PWR0121" H 11450 5650 50  0001 C CNN
+F 1 "GND" H 11455 5727 50  0000 C CNN
+F 2 "" H 11450 5900 50  0001 C CNN
+F 3 "" H 11450 5900 50  0001 C CNN
+	1    11450 5900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11450 5900 11500 5900
+Wire Wire Line
+	11800 5900 11850 5900
+Text GLabel 11650 4250 3    50   Input ~ 0
+MIN_DENS
+Text GLabel 12600 4250 3    50   Input ~ 0
+MAX_DENS
+Text GLabel 12600 5150 3    50   Input ~ 0
+MAX_FREQ
+Text GLabel 11650 5150 3    50   Input ~ 0
+MIN_FREQ
+Wire Wire Line
+	11650 4200 11650 4250
+Wire Wire Line
+	12600 4200 12600 4250
+Wire Wire Line
+	12600 5100 12600 5150
+Wire Wire Line
+	11650 5100 11650 5150
+Text GLabel 11650 6100 3    50   Input ~ 0
+ROC
+Wire Wire Line
+	11650 6050 11650 6100
+$Comp
+L Transistor_BJT:MMBT3904 Q2
+U 1 1 62C67A37
+P 13400 7600
+F 0 "Q2" H 13591 7646 50  0000 L CNN
+F 1 "MMBT3904" H 13591 7555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 13600 7525 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 13400 7600 50  0001 L CNN
+	1    13400 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:EuroJack_Mono_3.5mm_Switched J18
+U 1 1 62C680D9
+P 12850 7600
+F 0 "J18" H 12878 7825 50  0000 C CNN
+F 1 "DENS_IN" H 12878 7734 50  0000 C CNN
+F 2 "HammerheadAudio:EuroJack_MonoSW_THT_NOREF_Mask" H 12850 7600 50  0001 C CNN
+F 3 "~" H 12850 7600 50  0001 C CNN
+	1    12850 7600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
