@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:Wasp_Hive-cache
-LIBS:HiveTriptych_Center-cache
 EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
@@ -15,48 +14,37 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:+5V #PWR00
-U 1 1 619D369A
-P 850 2150
-F 0 "#PWR00" H 850 2000 50  0001 C CNN
-F 1 "+5V" V 865 2278 50  0000 L CNN
-F 2 "" H 850 2150 50  0001 C CNN
-F 3 "" H 850 2150 50  0001 C CNN
-	1    850  2150
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	950  1950 900  1950
+	1950 1950 2000 1950
 Wire Wire Line
-	950  1850 900  1850
+	1950 1850 2000 1850
 Wire Wire Line
-	950  1750 900  1750
+	1950 1750 2000 1750
 Wire Wire Line
-	950  1650 900  1650
+	1950 1650 2000 1650
 Wire Wire Line
-	950  1550 900  1550
+	1950 1550 2000 1550
 Wire Wire Line
-	950  1450 900  1450
+	1950 1450 2000 1450
 Wire Wire Line
-	950  1350 900  1350
+	1950 1350 2000 1350
 Wire Wire Line
-	950  1250 900  1250
-Text GLabel 3750 1300 0    50   UnSpc ~ 0
+	1950 1250 2000 1250
+Text GLabel 4850 1300 2    50   UnSpc ~ 0
 T8
-Text GLabel 900  1950 0    50   UnSpc ~ 0
+Text GLabel 2000 1950 2    50   UnSpc ~ 0
 T7
-Text GLabel 900  1850 0    50   UnSpc ~ 0
+Text GLabel 2000 1850 2    50   UnSpc ~ 0
 T6
-Text GLabel 900  1750 0    50   UnSpc ~ 0
+Text GLabel 2000 1750 2    50   UnSpc ~ 0
 T5
-Text GLabel 900  1650 0    50   UnSpc ~ 0
+Text GLabel 2000 1650 2    50   UnSpc ~ 0
 T4
-Text GLabel 900  1550 0    50   UnSpc ~ 0
+Text GLabel 2000 1550 2    50   UnSpc ~ 0
 T3
-Text GLabel 900  1450 0    50   UnSpc ~ 0
+Text GLabel 2000 1450 2    50   UnSpc ~ 0
 T2
-Text GLabel 900  1350 0    50   UnSpc ~ 0
+Text GLabel 2000 1350 2    50   UnSpc ~ 0
 T1
 Wire Wire Line
 	1450 950  1450 900 
@@ -95,36 +83,36 @@ Wire Wire Line
 	1450 2600 1450 2650
 NoConn ~ 1250 4100
 Wire Wire Line
-	1950 1950 2000 1950
+	950  1950 900  1950
 Wire Wire Line
-	1950 1850 2000 1850
+	950  1850 900  1850
 Wire Wire Line
-	1950 1750 2000 1750
+	950  1750 900  1750
 Wire Wire Line
-	1950 1650 2000 1650
+	950  1650 900  1650
 Wire Wire Line
-	1950 1550 2000 1550
+	950  1550 900  1550
 Wire Wire Line
-	1950 1450 2000 1450
+	950  1450 900  1450
 Wire Wire Line
-	1950 1350 2000 1350
+	950  1350 900  1350
 Wire Wire Line
-	1950 1250 2000 1250
-Text GLabel 4850 1300 2    50   UnSpc ~ 0
+	950  1250 900  1250
+Text GLabel 3750 1300 0    50   UnSpc ~ 0
 O8
-Text GLabel 2000 1950 2    50   UnSpc ~ 0
+Text GLabel 900  1950 0    50   UnSpc ~ 0
 O7
-Text GLabel 2000 1850 2    50   UnSpc ~ 0
+Text GLabel 900  1850 0    50   UnSpc ~ 0
 O6
-Text GLabel 2000 1750 2    50   UnSpc ~ 0
+Text GLabel 900  1750 0    50   UnSpc ~ 0
 O5
-Text GLabel 2000 1650 2    50   UnSpc ~ 0
+Text GLabel 900  1650 0    50   UnSpc ~ 0
 O4
-Text GLabel 2000 1550 2    50   UnSpc ~ 0
+Text GLabel 900  1550 0    50   UnSpc ~ 0
 O3
-Text GLabel 2000 1450 2    50   UnSpc ~ 0
+Text GLabel 900  1450 0    50   UnSpc ~ 0
 O2
-Text GLabel 2000 1350 2    50   UnSpc ~ 0
+Text GLabel 900  1350 0    50   UnSpc ~ 0
 O1
 Text GLabel 750  4750 0    50   UnSpc ~ 0
 O1
@@ -525,46 +513,35 @@ Wire Wire Line
 Connection ~ 3050 8150
 Wire Wire Line
 	3050 8150 3050 8850
-$Comp
-L power:+5V #PWR011
-U 1 1 61B788BA
-P 3700 2200
-F 0 "#PWR011" H 3700 2050 50  0001 C CNN
-F 1 "+5V" V 3715 2328 50  0000 L CNN
-F 2 "" H 3700 2200 50  0001 C CNN
-F 3 "" H 3700 2200 50  0001 C CNN
-	1    3700 2200
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	3800 2000 3750 2000
+	4800 2000 4850 2000
 Wire Wire Line
-	3800 1900 3750 1900
+	4800 1900 4850 1900
 Wire Wire Line
-	3800 1800 3750 1800
+	4800 1800 4850 1800
 Wire Wire Line
-	3800 1700 3750 1700
+	4800 1700 4850 1700
 Wire Wire Line
-	3800 1600 3750 1600
+	4800 1600 4850 1600
 Wire Wire Line
-	3800 1500 3750 1500
+	4800 1500 4850 1500
 Wire Wire Line
-	3800 1400 3750 1400
+	4800 1400 4850 1400
 Wire Wire Line
-	3800 1300 3750 1300
-Text GLabel 3750 2000 0    50   UnSpc ~ 0
+	4800 1300 4850 1300
+Text GLabel 4850 2000 2    50   UnSpc ~ 0
 T15
-Text GLabel 3750 1900 0    50   UnSpc ~ 0
+Text GLabel 4850 1900 2    50   UnSpc ~ 0
 T14
-Text GLabel 3750 1800 0    50   UnSpc ~ 0
+Text GLabel 4850 1800 2    50   UnSpc ~ 0
 T13
-Text GLabel 3750 1700 0    50   UnSpc ~ 0
+Text GLabel 4850 1700 2    50   UnSpc ~ 0
 T12
-Text GLabel 3750 1600 0    50   UnSpc ~ 0
+Text GLabel 4850 1600 2    50   UnSpc ~ 0
 T11
-Text GLabel 3750 1500 0    50   UnSpc ~ 0
+Text GLabel 4850 1500 2    50   UnSpc ~ 0
 T10
-Text GLabel 3750 1400 0    50   UnSpc ~ 0
+Text GLabel 4850 1400 2    50   UnSpc ~ 0
 T9
 Wire Wire Line
 	4300 1000 4300 950 
@@ -603,34 +580,34 @@ Wire Wire Line
 	4300 2650 4300 2700
 NoConn ~ 4100 4150
 Wire Wire Line
-	4800 2000 4850 2000
+	3800 2000 3750 2000
 Wire Wire Line
-	4800 1900 4850 1900
+	3800 1900 3750 1900
 Wire Wire Line
-	4800 1800 4850 1800
+	3800 1800 3750 1800
 Wire Wire Line
-	4800 1700 4850 1700
+	3800 1700 3750 1700
 Wire Wire Line
-	4800 1600 4850 1600
+	3800 1600 3750 1600
 Wire Wire Line
-	4800 1500 4850 1500
+	3800 1500 3750 1500
 Wire Wire Line
-	4800 1400 4850 1400
+	3800 1400 3750 1400
 Wire Wire Line
-	4800 1300 4850 1300
-Text GLabel 4850 2000 2    50   UnSpc ~ 0
+	3800 1300 3750 1300
+Text GLabel 3750 2000 0    50   UnSpc ~ 0
 O15
-Text GLabel 4850 1900 2    50   UnSpc ~ 0
+Text GLabel 3750 1900 0    50   UnSpc ~ 0
 O14
-Text GLabel 4850 1800 2    50   UnSpc ~ 0
+Text GLabel 3750 1800 0    50   UnSpc ~ 0
 O13
-Text GLabel 4850 1700 2    50   UnSpc ~ 0
+Text GLabel 3750 1700 0    50   UnSpc ~ 0
 O12
-Text GLabel 4850 1600 2    50   UnSpc ~ 0
+Text GLabel 3750 1600 0    50   UnSpc ~ 0
 O11
-Text GLabel 4850 1500 2    50   UnSpc ~ 0
+Text GLabel 3750 1500 0    50   UnSpc ~ 0
 O10
-Text GLabel 4850 1400 2    50   UnSpc ~ 0
+Text GLabel 3750 1400 0    50   UnSpc ~ 0
 O9
 Text GLabel 3600 4800 0    50   UnSpc ~ 0
 O9
@@ -1031,9 +1008,9 @@ Wire Wire Line
 	5900 8200 5900 8900
 Text GLabel 750  3250 0    50   UnSpc ~ 0
 O0
-Text GLabel 900  1250 0    50   UnSpc ~ 0
-T0
 Text GLabel 2000 1250 2    50   UnSpc ~ 0
+T0
+Text GLabel 900  1250 0    50   UnSpc ~ 0
 O0
 $Comp
 L power:VDD #PWR0103
@@ -1053,12 +1030,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0104
 U 1 1 64D29291
-P 13600 2500
-F 0 "#PWR0104" H 13600 2250 50  0001 C CNN
-F 1 "GND" H 13605 2327 50  0000 C CNN
-F 2 "" H 13600 2500 50  0001 C CNN
-F 3 "" H 13600 2500 50  0001 C CNN
-	1    13600 2500
+P 13600 2550
+F 0 "#PWR0104" H 13600 2300 50  0001 C CNN
+F 1 "GND" H 13605 2377 50  0000 C CNN
+F 2 "" H 13600 2550 50  0001 C CNN
+F 3 "" H 13600 2550 50  0001 C CNN
+	1    13600 2550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1082,8 +1059,6 @@ Wire Wire Line
 	13200 2150 13200 2450
 Connection ~ 13600 2450
 Wire Wire Line
-	13600 2450 13600 2500
-Wire Wire Line
 	12800 1850 12800 1900
 Connection ~ 12800 1850
 Wire Wire Line
@@ -1092,7 +1067,7 @@ Wire Wire Line
 	12800 2450 13200 2450
 Connection ~ 13200 2450
 Wire Wire Line
-	13600 1850 13600 2100
+	13600 1850 13600 1950
 Connection ~ 13600 1850
 Wire Wire Line
 	13600 1850 13800 1850
@@ -1424,7 +1399,7 @@ U 1 1 625485AE
 P 8400 5800
 F 0 "R51" V 8193 5800 50  0000 C CNN
 F 1 "100k" V 8284 5800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef  (at -2.794 0)_  (descr _STANDOFF (#4 SCREW)_)_  (tags _STANDOFF (#4 SCREW)_)_  (attr virtual)_  (fp_text reference H3 (at 0 -3.302) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_text value M3_#4-40 (at 0 3.429) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_circle (center 0 0) (end 0 -2.794) (layer F.CrtYd) (width 0.127))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.3) (layers *.Cu *.Mask)_    (solder_mask_margin 0.1016) (clearance 1.5))_)_(module HammerheadAudio_M3_Plated (layer F.Cu) (tedit 6142030D) (tstamp 6196DF6B)_  (at -2.794 0)_  (descr _STANDOFF (#4 SCREW)_)_  (tags _STANDOFF (#4 SCREW)_)_  (attr virtual)_  (fp_text reference H3 (at 0 -3.302) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_text value M3_#4-40 (at 0 3.429) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_circle (center 0 0) (end 0 -2.794) (layer F.CrtYd) (width 0.127))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.3) (layers *.Cu *.Mask)_    (solder_mask_margin 0.1016) (clearance 1.5))_)_" V 8330 5800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 8330 5800 50  0001 C CNN
 F 3 "~" H 8400 5800 50  0001 C CNN
 	1    8400 5800
 	0    1    1    0   
@@ -1435,7 +1410,7 @@ U 1 1 625485A4
 P 8850 6050
 F 0 "R53" H 8780 6004 50  0000 R CNN
 F 1 "100k" H 8780 6095 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef  (at -2.794 0)_  (descr _STANDOFF (#4 SCREW)_)_  (tags _STANDOFF (#4 SCREW)_)_  (attr virtual)_  (fp_text reference H3 (at 0 -3.302) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_text value M3_#4-40 (at 0 3.429) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_circle (center 0 0) (end 0 -2.794) (layer F.CrtYd) (width 0.127))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.3) (layers *.Cu *.Mask)_    (solder_mask_margin 0.1016) (clearance 1.5))_)_(module HammerheadAudio_M3_Plated (layer F.Cu) (tedit 6142030D) (tstamp 6196DF6B)_  (at -2.794 0)_  (descr _STANDOFF (#4 SCREW)_)_  (tags _STANDOFF (#4 SCREW)_)_  (attr virtual)_  (fp_text reference H3 (at 0 -3.302) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_text value M3_#4-40 (at 0 3.429) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_circle (center 0 0) (end 0 -2.794) (layer F.CrtYd) (width 0.127))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.3) (layers *.Cu *.Mask)_    (solder_mask_margin 0.1016) (clearance 1.5))_)_" V 8780 6050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 8780 6050 50  0001 C CNN
 F 3 "~" H 8850 6050 50  0001 C CNN
 	1    8850 6050
 	-1   0    0    1   
@@ -1446,7 +1421,7 @@ U 2 1 62548586
 P 9250 5700
 F 0 "U2" H 9250 5333 50  0000 C CNN
 F 1 "MCP6002-xP" H 9250 5424 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 9250 5700 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9250 5700 50  0001 C CNN
 F 3 "C7377" H 9250 5700 50  0001 C CNN
 	2    9250 5700
 	1    0    0    1   
@@ -1457,7 +1432,7 @@ U 1 1 623D332A
 P 7750 7500
 F 0 "R54" H 7680 7454 50  0000 R CNN
 F 1 "100k" H 7680 7545 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef  (at -2.794 0)_  (descr _STANDOFF (#4 SCREW)_)_  (tags _STANDOFF (#4 SCREW)_)_  (attr virtual)_  (fp_text reference H3 (at 0 -3.302) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_text value M3_#4-40 (at 0 3.429) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_circle (center 0 0) (end 0 -2.794) (layer F.CrtYd) (width 0.127))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.3) (layers *.Cu *.Mask)_    (solder_mask_margin 0.1016) (clearance 1.5))_)_(module HammerheadAudio_M3_Plated (layer F.Cu) (tedit 6142030D) (tstamp 6196DF6B)_  (at -2.794 0)_  (descr _STANDOFF (#4 SCREW)_)_  (tags _STANDOFF (#4 SCREW)_)_  (attr virtual)_  (fp_text reference H3 (at 0 -3.302) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_text value M3_#4-40 (at 0 3.429) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_circle (center 0 0) (end 0 -2.794) (layer F.CrtYd) (width 0.127))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.3) (layers *.Cu *.Mask)_    (solder_mask_margin 0.1016) (clearance 1.5))_)_" V 7680 7500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 7680 7500 50  0001 C CNN
 F 3 "~" H 7750 7500 50  0001 C CNN
 	1    7750 7500
 	0    1    -1   0   
@@ -1468,7 +1443,7 @@ U 1 1 623D3E73
 P 7350 7700
 F 0 "R52" V 7143 7700 50  0000 C CNN
 F 1 "100k" V 7234 7700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef  (at -2.794 0)_  (descr _STANDOFF (#4 SCREW)_)_  (tags _STANDOFF (#4 SCREW)_)_  (attr virtual)_  (fp_text reference H3 (at 0 -3.302) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_text value M3_#4-40 (at 0 3.429) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_circle (center 0 0) (end 0 -2.794) (layer F.CrtYd) (width 0.127))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.3) (layers *.Cu *.Mask)_    (solder_mask_margin 0.1016) (clearance 1.5))_)_(module HammerheadAudio_M3_Plated (layer F.Cu) (tedit 6142030D) (tstamp 6196DF6B)_  (at -2.794 0)_  (descr _STANDOFF (#4 SCREW)_)_  (tags _STANDOFF (#4 SCREW)_)_  (attr virtual)_  (fp_text reference H3 (at 0 -3.302) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_text value M3_#4-40 (at 0 3.429) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_circle (center 0 0) (end 0 -2.794) (layer F.CrtYd) (width 0.127))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.3) (layers *.Cu *.Mask)_    (solder_mask_margin 0.1016) (clearance 1.5))_)_" V 7280 7700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 7280 7700 50  0001 C CNN
 F 3 "~" H 7350 7700 50  0001 C CNN
 	1    7350 7700
 	1    0    0    1   
@@ -1479,7 +1454,7 @@ U 1 1 6238E4ED
 P 7750 7000
 F 0 "U3" H 7750 6633 50  0000 C CNN
 F 1 "MCP6002-xP" H 7750 6724 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 7750 7000 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7750 7000 50  0001 C CNN
 F 3 "C7377" H 7750 7000 50  0001 C CNN
 	1    7750 7000
 	1    0    0    -1  
@@ -1490,7 +1465,7 @@ U 1 1 622474DD
 P 9950 2150
 F 0 "U4" H 9975 3387 60  0000 C CNN
 F 1 "TEENSY_3.2_MINIMAL" H 9975 3281 60  0000 C CNN
-F 2 "MeowWolf_Templates:TEENSY_LC_NO_SILK" H 9950 1600 60  0001 C CNN
+F 2 "MeowWolf_Templates:TEENSY_LC_MIN_SILK_2SIDE" H 9950 1600 60  0001 C CNN
 F 3 "" H 9950 1600 60  0000 C CNN
 	1    9950 2150
 	1    0    0    -1  
@@ -1501,7 +1476,7 @@ U 1 1 621F2694
 P 12800 2250
 F 0 "C1" H 12915 2296 50  0000 L CNN
 F 1 "0.33uf" H 12915 2205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" H 12838 2100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" H 12838 2100 50  0001 C CNN
 F 3 "C1615" H 12800 2250 50  0001 C CNN
 	1    12800 2250
 	1    0    0    -1  
@@ -1512,7 +1487,7 @@ U 1 1 621F2147
 P 13600 2250
 F 0 "C2" H 13715 2296 50  0000 L CNN
 F 1 "0.1uf" H 13715 2205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" H 13638 2100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" H 13638 2100 50  0001 C CNN
 F 3 "C14663" H 13600 2250 50  0001 C CNN
 	1    13600 2250
 	1    0    0    -1  
@@ -1534,7 +1509,7 @@ U 1 1 61B78BC1
 P 5150 7850
 F 0 "R45" V 4943 7850 50  0000 C CNN
 F 1 "LRV_R" V 5034 7850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 5080 7850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 5080 7850 50  0001 C CNN
 F 3 "~" H 5150 7850 50  0001 C CNN
 	1    5150 7850
 	0    1    1    0   
@@ -1545,7 +1520,7 @@ U 1 1 61B78BB7
 P 5550 7850
 F 0 "D30" H 5650 7900 50  0000 C CNN
 F 1 "LRV" H 5350 7900 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5550 7850 50  0001 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 5550 7850 50  0001 C CNN
 F 3 "~" H 5550 7850 50  0001 C CNN
 	1    5550 7850
 	-1   0    0    -1  
@@ -1556,7 +1531,7 @@ U 1 1 61B78BAD
 P 5150 8200
 F 0 "R46" V 4943 8200 50  0000 C CNN
 F 1 "WSP_R" V 5034 8200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 5080 8200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 5080 8200 50  0001 C CNN
 F 3 "~" H 5150 8200 50  0001 C CNN
 	1    5150 8200
 	0    1    1    0   
@@ -1567,7 +1542,7 @@ U 1 1 61B78BA2
 P 5150 8600
 F 0 "R47" V 4943 8600 50  0000 C CNN
 F 1 "O_R" V 5034 8600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 5080 8600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 5080 8600 50  0001 C CNN
 F 3 "~" H 5150 8600 50  0001 C CNN
 	1    5150 8600
 	0    1    1    0   
@@ -1589,7 +1564,7 @@ U 1 1 61B78B8D
 P 5550 8200
 F 0 "D31" H 5650 8250 50  0000 C CNN
 F 1 "WSP" H 5350 8250 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5550 8200 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_FabRef" H 5550 8200 50  0001 C CNN
 F 3 "~" H 5550 8200 50  0001 C CNN
 	1    5550 8200
 	-1   0    0    -1  
@@ -1600,7 +1575,7 @@ U 1 1 61B78B65
 P 5150 6350
 F 0 "R42" V 4943 6350 50  0000 C CNN
 F 1 "LRV_R" V 5034 6350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 5080 6350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 5080 6350 50  0001 C CNN
 F 3 "~" H 5150 6350 50  0001 C CNN
 	1    5150 6350
 	0    1    1    0   
@@ -1611,7 +1586,7 @@ U 1 1 61B78B5B
 P 5550 6350
 F 0 "D28" H 5650 6400 50  0000 C CNN
 F 1 "LRV" H 5350 6400 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5550 6350 50  0001 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 5550 6350 50  0001 C CNN
 F 3 "~" H 5550 6350 50  0001 C CNN
 	1    5550 6350
 	-1   0    0    -1  
@@ -1622,7 +1597,7 @@ U 1 1 61B78B51
 P 5150 6700
 F 0 "R43" V 4943 6700 50  0000 C CNN
 F 1 "WSP_R" V 5034 6700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 5080 6700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 5080 6700 50  0001 C CNN
 F 3 "~" H 5150 6700 50  0001 C CNN
 	1    5150 6700
 	0    1    1    0   
@@ -1633,7 +1608,7 @@ U 1 1 61B78B46
 P 5150 7100
 F 0 "R44" V 4943 7100 50  0000 C CNN
 F 1 "O_R" V 5034 7100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 5080 7100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 5080 7100 50  0001 C CNN
 F 3 "~" H 5150 7100 50  0001 C CNN
 	1    5150 7100
 	0    1    1    0   
@@ -1655,7 +1630,7 @@ U 1 1 61B78B31
 P 5550 6700
 F 0 "D29" H 5650 6750 50  0000 C CNN
 F 1 "WSP" H 5350 6750 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5550 6700 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_FabRef" H 5550 6700 50  0001 C CNN
 F 3 "~" H 5550 6700 50  0001 C CNN
 	1    5550 6700
 	-1   0    0    -1  
@@ -1666,7 +1641,7 @@ U 1 1 61B78B09
 P 5150 4850
 F 0 "R39" V 4943 4850 50  0000 C CNN
 F 1 "LRV_R" V 5034 4850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 5080 4850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 5080 4850 50  0001 C CNN
 F 3 "~" H 5150 4850 50  0001 C CNN
 	1    5150 4850
 	0    1    1    0   
@@ -1677,7 +1652,7 @@ U 1 1 61B78AFF
 P 5550 4850
 F 0 "D26" H 5650 4900 50  0000 C CNN
 F 1 "LRV" H 5350 4900 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5550 4850 50  0001 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 5550 4850 50  0001 C CNN
 F 3 "~" H 5550 4850 50  0001 C CNN
 	1    5550 4850
 	-1   0    0    -1  
@@ -1688,7 +1663,7 @@ U 1 1 61B78AF5
 P 5150 5200
 F 0 "R40" V 4943 5200 50  0000 C CNN
 F 1 "WSP_R" V 5034 5200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 5080 5200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 5080 5200 50  0001 C CNN
 F 3 "~" H 5150 5200 50  0001 C CNN
 	1    5150 5200
 	0    1    1    0   
@@ -1699,7 +1674,7 @@ U 1 1 61B78AEA
 P 5150 5600
 F 0 "R41" V 4943 5600 50  0000 C CNN
 F 1 "O_R" V 5034 5600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 5080 5600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 5080 5600 50  0001 C CNN
 F 3 "~" H 5150 5600 50  0001 C CNN
 	1    5150 5600
 	0    1    1    0   
@@ -1721,7 +1696,7 @@ U 1 1 61B78AD5
 P 5550 5200
 F 0 "D27" H 5650 5250 50  0000 C CNN
 F 1 "WSP" H 5350 5250 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5550 5200 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_FabRef" H 5550 5200 50  0001 C CNN
 F 3 "~" H 5550 5200 50  0001 C CNN
 	1    5550 5200
 	-1   0    0    -1  
@@ -1732,7 +1707,7 @@ U 1 1 61B78AAD
 P 5150 3350
 F 0 "R36" V 4943 3350 50  0000 C CNN
 F 1 "LRV_R" V 5034 3350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 5080 3350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 5080 3350 50  0001 C CNN
 F 3 "~" H 5150 3350 50  0001 C CNN
 	1    5150 3350
 	0    1    1    0   
@@ -1743,7 +1718,7 @@ U 1 1 61B78AA3
 P 5550 3350
 F 0 "D24" H 5650 3400 50  0000 C CNN
 F 1 "LRV" H 5350 3400 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5550 3350 50  0001 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 5550 3350 50  0001 C CNN
 F 3 "~" H 5550 3350 50  0001 C CNN
 	1    5550 3350
 	-1   0    0    -1  
@@ -1754,7 +1729,7 @@ U 1 1 61B78A99
 P 5150 3700
 F 0 "R37" V 4943 3700 50  0000 C CNN
 F 1 "WSP_R" V 5034 3700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 5080 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 5080 3700 50  0001 C CNN
 F 3 "~" H 5150 3700 50  0001 C CNN
 	1    5150 3700
 	0    1    1    0   
@@ -1765,7 +1740,7 @@ U 1 1 61B78A8E
 P 5150 4100
 F 0 "R38" V 4943 4100 50  0000 C CNN
 F 1 "O_R" V 5034 4100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 5080 4100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 5080 4100 50  0001 C CNN
 F 3 "~" H 5150 4100 50  0001 C CNN
 	1    5150 4100
 	0    1    1    0   
@@ -1787,7 +1762,7 @@ U 1 1 61B78A79
 P 5550 3700
 F 0 "D25" H 5650 3750 50  0000 C CNN
 F 1 "WSP" H 5350 3750 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5550 3700 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_FabRef" H 5550 3700 50  0001 C CNN
 F 3 "~" H 5550 3700 50  0001 C CNN
 	1    5550 3700
 	-1   0    0    -1  
@@ -1798,7 +1773,7 @@ U 1 1 61B78A51
 P 3850 7800
 F 0 "R33" V 3643 7800 50  0000 C CNN
 F 1 "LRV_R" V 3734 7800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 3780 7800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 3780 7800 50  0001 C CNN
 F 3 "~" H 3850 7800 50  0001 C CNN
 	1    3850 7800
 	0    1    1    0   
@@ -1809,7 +1784,7 @@ U 1 1 61B78A47
 P 4250 7800
 F 0 "D22" H 4350 7850 50  0000 C CNN
 F 1 "LRV" H 4050 7850 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4250 7800 50  0001 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 4250 7800 50  0001 C CNN
 F 3 "~" H 4250 7800 50  0001 C CNN
 	1    4250 7800
 	-1   0    0    -1  
@@ -1820,7 +1795,7 @@ U 1 1 61B78A3D
 P 3850 8150
 F 0 "R34" V 3643 8150 50  0000 C CNN
 F 1 "WSP_R" V 3734 8150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 3780 8150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 3780 8150 50  0001 C CNN
 F 3 "~" H 3850 8150 50  0001 C CNN
 	1    3850 8150
 	0    1    1    0   
@@ -1831,7 +1806,7 @@ U 1 1 61B78A32
 P 3850 8550
 F 0 "R35" V 3643 8550 50  0000 C CNN
 F 1 "O_R" V 3734 8550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 3780 8550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 3780 8550 50  0001 C CNN
 F 3 "~" H 3850 8550 50  0001 C CNN
 	1    3850 8550
 	0    1    1    0   
@@ -1853,7 +1828,7 @@ U 1 1 61B78A1D
 P 4250 8150
 F 0 "D23" H 4350 8200 50  0000 C CNN
 F 1 "WSP" H 4050 8200 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4250 8150 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_FabRef" H 4250 8150 50  0001 C CNN
 F 3 "~" H 4250 8150 50  0001 C CNN
 	1    4250 8150
 	-1   0    0    -1  
@@ -1864,7 +1839,7 @@ U 1 1 61B789F5
 P 3850 6300
 F 0 "R30" V 3643 6300 50  0000 C CNN
 F 1 "LRV_R" V 3734 6300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 3780 6300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 3780 6300 50  0001 C CNN
 F 3 "~" H 3850 6300 50  0001 C CNN
 	1    3850 6300
 	0    1    1    0   
@@ -1875,7 +1850,7 @@ U 1 1 61B789EB
 P 4250 6300
 F 0 "D20" H 4350 6350 50  0000 C CNN
 F 1 "LRV" H 4050 6350 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4250 6300 50  0001 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 4250 6300 50  0001 C CNN
 F 3 "~" H 4250 6300 50  0001 C CNN
 	1    4250 6300
 	-1   0    0    -1  
@@ -1886,7 +1861,7 @@ U 1 1 61B789E1
 P 3850 6650
 F 0 "R31" V 3643 6650 50  0000 C CNN
 F 1 "WSP_R" V 3734 6650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 3780 6650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 3780 6650 50  0001 C CNN
 F 3 "~" H 3850 6650 50  0001 C CNN
 	1    3850 6650
 	0    1    1    0   
@@ -1897,7 +1872,7 @@ U 1 1 61B789D6
 P 3850 7050
 F 0 "R32" V 3643 7050 50  0000 C CNN
 F 1 "O_R" V 3734 7050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 3780 7050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 3780 7050 50  0001 C CNN
 F 3 "~" H 3850 7050 50  0001 C CNN
 	1    3850 7050
 	0    1    1    0   
@@ -1919,7 +1894,7 @@ U 1 1 61B789C1
 P 4250 6650
 F 0 "D21" H 4350 6700 50  0000 C CNN
 F 1 "WSP" H 4050 6700 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4250 6650 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_FabRef" H 4250 6650 50  0001 C CNN
 F 3 "~" H 4250 6650 50  0001 C CNN
 	1    4250 6650
 	-1   0    0    -1  
@@ -1930,7 +1905,7 @@ U 1 1 61B78999
 P 3850 4800
 F 0 "R27" V 3643 4800 50  0000 C CNN
 F 1 "LRV_R" V 3734 4800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 3780 4800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 3780 4800 50  0001 C CNN
 F 3 "~" H 3850 4800 50  0001 C CNN
 	1    3850 4800
 	0    1    1    0   
@@ -1941,7 +1916,7 @@ U 1 1 61B7898F
 P 4250 4800
 F 0 "D18" H 4350 4850 50  0000 C CNN
 F 1 "LRV" H 4050 4850 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4250 4800 50  0001 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 4250 4800 50  0001 C CNN
 F 3 "~" H 4250 4800 50  0001 C CNN
 	1    4250 4800
 	-1   0    0    -1  
@@ -1952,7 +1927,7 @@ U 1 1 61B78985
 P 3850 5150
 F 0 "R28" V 3643 5150 50  0000 C CNN
 F 1 "WSP_R" V 3734 5150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 3780 5150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 3780 5150 50  0001 C CNN
 F 3 "~" H 3850 5150 50  0001 C CNN
 	1    3850 5150
 	0    1    1    0   
@@ -1963,7 +1938,7 @@ U 1 1 61B7897A
 P 3850 5550
 F 0 "R29" V 3643 5550 50  0000 C CNN
 F 1 "O_R" V 3734 5550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 3780 5550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 3780 5550 50  0001 C CNN
 F 3 "~" H 3850 5550 50  0001 C CNN
 	1    3850 5550
 	0    1    1    0   
@@ -1985,7 +1960,7 @@ U 1 1 61B78965
 P 4250 5150
 F 0 "D19" H 4350 5200 50  0000 C CNN
 F 1 "WSP" H 4050 5200 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4250 5150 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_FabRef" H 4250 5150 50  0001 C CNN
 F 3 "~" H 4250 5150 50  0001 C CNN
 	1    4250 5150
 	-1   0    0    -1  
@@ -1996,7 +1971,7 @@ U 1 1 61B7893D
 P 3850 3300
 F 0 "R24" V 3643 3300 50  0000 C CNN
 F 1 "LRV_R" V 3734 3300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 3780 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 3780 3300 50  0001 C CNN
 F 3 "~" H 3850 3300 50  0001 C CNN
 	1    3850 3300
 	0    1    1    0   
@@ -2007,7 +1982,7 @@ U 1 1 61B78933
 P 4250 3300
 F 0 "D16" H 4350 3350 50  0000 C CNN
 F 1 "LRV" H 4050 3350 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4250 3300 50  0001 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 4250 3300 50  0001 C CNN
 F 3 "~" H 4250 3300 50  0001 C CNN
 	1    4250 3300
 	-1   0    0    -1  
@@ -2018,7 +1993,7 @@ U 1 1 61B78929
 P 3850 3650
 F 0 "R25" V 3643 3650 50  0000 C CNN
 F 1 "WSP_R" V 3734 3650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 3780 3650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 3780 3650 50  0001 C CNN
 F 3 "~" H 3850 3650 50  0001 C CNN
 	1    3850 3650
 	0    1    1    0   
@@ -2029,7 +2004,7 @@ U 1 1 61B7890E
 P 3850 4050
 F 0 "R26" V 3643 4050 50  0000 C CNN
 F 1 "O_R" V 3734 4050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 3780 4050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 3780 4050 50  0001 C CNN
 F 3 "~" H 3850 4050 50  0001 C CNN
 	1    3850 4050
 	0    1    1    0   
@@ -2051,7 +2026,7 @@ U 1 1 61B788F9
 P 4250 3650
 F 0 "D17" H 4350 3700 50  0000 C CNN
 F 1 "WSP" H 4050 3700 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4250 3650 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_FabRef" H 4250 3650 50  0001 C CNN
 F 3 "~" H 4250 3650 50  0001 C CNN
 	1    4250 3650
 	-1   0    0    -1  
@@ -2062,7 +2037,7 @@ U 1 1 61B788E9
 P 4300 1800
 F 0 "U1" H 4050 2450 50  0000 C CNN
 F 1 "74HC245" H 4550 2450 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 4300 1800 50  0001 C CNN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 4300 1800 50  0001 C CNN
 F 3 "C5625" H 4300 1800 50  0001 C CNN
 	1    4300 1800
 	1    0    0    -1  
@@ -2073,7 +2048,7 @@ U 1 1 61ACBB58
 P 2300 7800
 F 0 "R21" V 2093 7800 50  0000 C CNN
 F 1 "LRV_R" V 2184 7800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 2230 7800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 2230 7800 50  0001 C CNN
 F 3 "~" H 2300 7800 50  0001 C CNN
 	1    2300 7800
 	0    1    1    0   
@@ -2084,7 +2059,7 @@ U 1 1 61ACBB4E
 P 2700 7800
 F 0 "D14" H 2800 7850 50  0000 C CNN
 F 1 "LRV" H 2500 7850 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2700 7800 50  0001 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 2700 7800 50  0001 C CNN
 F 3 "~" H 2700 7800 50  0001 C CNN
 	1    2700 7800
 	-1   0    0    -1  
@@ -2095,7 +2070,7 @@ U 1 1 61ACBB44
 P 2300 8150
 F 0 "R22" V 2093 8150 50  0000 C CNN
 F 1 "WSP_R" V 2184 8150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 2230 8150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 2230 8150 50  0001 C CNN
 F 3 "~" H 2300 8150 50  0001 C CNN
 	1    2300 8150
 	0    1    1    0   
@@ -2106,7 +2081,7 @@ U 1 1 61ACBB39
 P 2300 8550
 F 0 "R23" V 2093 8550 50  0000 C CNN
 F 1 "O_R" V 2184 8550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 2230 8550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 2230 8550 50  0001 C CNN
 F 3 "~" H 2300 8550 50  0001 C CNN
 	1    2300 8550
 	0    1    1    0   
@@ -2128,7 +2103,7 @@ U 1 1 61ACBB24
 P 2700 8150
 F 0 "D15" H 2800 8200 50  0000 C CNN
 F 1 "WSP" H 2500 8200 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2700 8150 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_FabRef" H 2700 8150 50  0001 C CNN
 F 3 "~" H 2700 8150 50  0001 C CNN
 	1    2700 8150
 	-1   0    0    -1  
@@ -2139,7 +2114,7 @@ U 1 1 61ACBAFC
 P 2300 6300
 F 0 "R18" V 2093 6300 50  0000 C CNN
 F 1 "LRV_R" V 2184 6300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 2230 6300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 2230 6300 50  0001 C CNN
 F 3 "~" H 2300 6300 50  0001 C CNN
 	1    2300 6300
 	0    1    1    0   
@@ -2150,7 +2125,7 @@ U 1 1 61ACBAF2
 P 2700 6300
 F 0 "D12" H 2800 6350 50  0000 C CNN
 F 1 "LRV" H 2500 6350 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2700 6300 50  0001 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 2700 6300 50  0001 C CNN
 F 3 "~" H 2700 6300 50  0001 C CNN
 	1    2700 6300
 	-1   0    0    -1  
@@ -2161,7 +2136,7 @@ U 1 1 61ACBAE8
 P 2300 6650
 F 0 "R19" V 2093 6650 50  0000 C CNN
 F 1 "WSP_R" V 2184 6650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 2230 6650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 2230 6650 50  0001 C CNN
 F 3 "~" H 2300 6650 50  0001 C CNN
 	1    2300 6650
 	0    1    1    0   
@@ -2172,7 +2147,7 @@ U 1 1 61ACBADD
 P 2300 7050
 F 0 "R20" V 2093 7050 50  0000 C CNN
 F 1 "O_R" V 2184 7050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 2230 7050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 2230 7050 50  0001 C CNN
 F 3 "~" H 2300 7050 50  0001 C CNN
 	1    2300 7050
 	0    1    1    0   
@@ -2194,7 +2169,7 @@ U 1 1 61ACBAC8
 P 2700 6650
 F 0 "D13" H 2800 6700 50  0000 C CNN
 F 1 "WSP" H 2500 6700 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2700 6650 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_FabRef" H 2700 6650 50  0001 C CNN
 F 3 "~" H 2700 6650 50  0001 C CNN
 	1    2700 6650
 	-1   0    0    -1  
@@ -2205,7 +2180,7 @@ U 1 1 61ACBAA0
 P 2300 4800
 F 0 "R15" V 2093 4800 50  0000 C CNN
 F 1 "LRV_R" V 2184 4800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 2230 4800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 2230 4800 50  0001 C CNN
 F 3 "~" H 2300 4800 50  0001 C CNN
 	1    2300 4800
 	0    1    1    0   
@@ -2216,7 +2191,7 @@ U 1 1 61ACBA96
 P 2700 4800
 F 0 "D10" H 2800 4850 50  0000 C CNN
 F 1 "LRV" H 2500 4850 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2700 4800 50  0001 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 2700 4800 50  0001 C CNN
 F 3 "~" H 2700 4800 50  0001 C CNN
 	1    2700 4800
 	-1   0    0    -1  
@@ -2227,7 +2202,7 @@ U 1 1 61ACBA8C
 P 2300 5150
 F 0 "R16" V 2093 5150 50  0000 C CNN
 F 1 "WSP_R" V 2184 5150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 2230 5150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 2230 5150 50  0001 C CNN
 F 3 "~" H 2300 5150 50  0001 C CNN
 	1    2300 5150
 	0    1    1    0   
@@ -2238,7 +2213,7 @@ U 1 1 61ACBA81
 P 2300 5550
 F 0 "R17" V 2093 5550 50  0000 C CNN
 F 1 "O_R" V 2184 5550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 2230 5550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 2230 5550 50  0001 C CNN
 F 3 "~" H 2300 5550 50  0001 C CNN
 	1    2300 5550
 	0    1    1    0   
@@ -2260,7 +2235,7 @@ U 1 1 61ACBA6C
 P 2700 5150
 F 0 "D11" H 2800 5200 50  0000 C CNN
 F 1 "WSP" H 2500 5200 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2700 5150 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_FabRef" H 2700 5150 50  0001 C CNN
 F 3 "~" H 2700 5150 50  0001 C CNN
 	1    2700 5150
 	-1   0    0    -1  
@@ -2271,7 +2246,7 @@ U 1 1 61ACBA44
 P 2300 3300
 F 0 "R12" V 2093 3300 50  0000 C CNN
 F 1 "LRV_R" V 2184 3300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 2230 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 2230 3300 50  0001 C CNN
 F 3 "~" H 2300 3300 50  0001 C CNN
 	1    2300 3300
 	0    1    1    0   
@@ -2282,7 +2257,7 @@ U 1 1 61ACBA3A
 P 2700 3300
 F 0 "D8" H 2800 3350 50  0000 C CNN
 F 1 "LRV" H 2500 3350 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2700 3300 50  0001 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 2700 3300 50  0001 C CNN
 F 3 "~" H 2700 3300 50  0001 C CNN
 	1    2700 3300
 	-1   0    0    -1  
@@ -2293,7 +2268,7 @@ U 1 1 61ACBA30
 P 2300 3650
 F 0 "R13" V 2093 3650 50  0000 C CNN
 F 1 "WSP_R" V 2184 3650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 2230 3650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 2230 3650 50  0001 C CNN
 F 3 "~" H 2300 3650 50  0001 C CNN
 	1    2300 3650
 	0    1    1    0   
@@ -2304,7 +2279,7 @@ U 1 1 61ACBA25
 P 2300 4050
 F 0 "R14" V 2093 4050 50  0000 C CNN
 F 1 "O_R" V 2184 4050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 2230 4050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 2230 4050 50  0001 C CNN
 F 3 "~" H 2300 4050 50  0001 C CNN
 	1    2300 4050
 	0    1    1    0   
@@ -2326,7 +2301,7 @@ U 1 1 61ACBA10
 P 2700 3650
 F 0 "D9" H 2800 3700 50  0000 C CNN
 F 1 "WSP" H 2500 3700 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2700 3650 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_FabRef" H 2700 3650 50  0001 C CNN
 F 3 "~" H 2700 3650 50  0001 C CNN
 	1    2700 3650
 	-1   0    0    -1  
@@ -2337,7 +2312,7 @@ U 1 1 61AC5B2C
 P 1000 7750
 F 0 "R9" V 793 7750 50  0000 C CNN
 F 1 "LRV_R" V 884 7750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 930 7750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 930 7750 50  0001 C CNN
 F 3 "~" H 1000 7750 50  0001 C CNN
 	1    1000 7750
 	0    1    1    0   
@@ -2348,7 +2323,7 @@ U 1 1 61AC5B22
 P 1400 7750
 F 0 "D6" H 1500 7800 50  0000 C CNN
 F 1 "LRV" H 1200 7800 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1400 7750 50  0001 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 1400 7750 50  0001 C CNN
 F 3 "~" H 1400 7750 50  0001 C CNN
 	1    1400 7750
 	-1   0    0    -1  
@@ -2359,7 +2334,7 @@ U 1 1 61AC5B18
 P 1000 8100
 F 0 "R10" V 793 8100 50  0000 C CNN
 F 1 "WSP_R" V 884 8100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 930 8100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 930 8100 50  0001 C CNN
 F 3 "~" H 1000 8100 50  0001 C CNN
 	1    1000 8100
 	0    1    1    0   
@@ -2370,7 +2345,7 @@ U 1 1 61AC5B0D
 P 1000 8500
 F 0 "R11" V 793 8500 50  0000 C CNN
 F 1 "O_R" V 884 8500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 930 8500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 930 8500 50  0001 C CNN
 F 3 "~" H 1000 8500 50  0001 C CNN
 	1    1000 8500
 	0    1    1    0   
@@ -2392,7 +2367,7 @@ U 1 1 61AC5AF8
 P 1400 8100
 F 0 "D7" H 1500 8150 50  0000 C CNN
 F 1 "WSP" H 1200 8150 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1400 8100 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_FabRef" H 1400 8100 50  0001 C CNN
 F 3 "~" H 1400 8100 50  0001 C CNN
 	1    1400 8100
 	-1   0    0    -1  
@@ -2403,7 +2378,7 @@ U 1 1 61ABAFA0
 P 1000 6250
 F 0 "R6" V 793 6250 50  0000 C CNN
 F 1 "LRV_R" V 884 6250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 930 6250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 930 6250 50  0001 C CNN
 F 3 "~" H 1000 6250 50  0001 C CNN
 	1    1000 6250
 	0    1    1    0   
@@ -2414,7 +2389,7 @@ U 1 1 61ABAF96
 P 1400 6250
 F 0 "D4" H 1500 6300 50  0000 C CNN
 F 1 "LRV" H 1200 6300 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1400 6250 50  0001 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 1400 6250 50  0001 C CNN
 F 3 "~" H 1400 6250 50  0001 C CNN
 	1    1400 6250
 	-1   0    0    -1  
@@ -2425,7 +2400,7 @@ U 1 1 61ABAF8C
 P 1000 6600
 F 0 "R7" V 793 6600 50  0000 C CNN
 F 1 "WSP_R" V 884 6600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 930 6600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 930 6600 50  0001 C CNN
 F 3 "~" H 1000 6600 50  0001 C CNN
 	1    1000 6600
 	0    1    1    0   
@@ -2436,7 +2411,7 @@ U 1 1 61ABAF81
 P 1000 7000
 F 0 "R8" V 793 7000 50  0000 C CNN
 F 1 "O_R" V 884 7000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 930 7000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 930 7000 50  0001 C CNN
 F 3 "~" H 1000 7000 50  0001 C CNN
 	1    1000 7000
 	0    1    1    0   
@@ -2458,7 +2433,7 @@ U 1 1 61ABAF6C
 P 1400 6600
 F 0 "D5" H 1500 6650 50  0000 C CNN
 F 1 "WSP" H 1200 6650 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1400 6600 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_FabRef" H 1400 6600 50  0001 C CNN
 F 3 "~" H 1400 6600 50  0001 C CNN
 	1    1400 6600
 	-1   0    0    -1  
@@ -2469,7 +2444,7 @@ U 1 1 61AB76EB
 P 1000 4750
 F 0 "R3" V 793 4750 50  0000 C CNN
 F 1 "LRV_R" V 884 4750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 930 4750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 930 4750 50  0001 C CNN
 F 3 "~" H 1000 4750 50  0001 C CNN
 	1    1000 4750
 	0    1    1    0   
@@ -2480,7 +2455,7 @@ U 1 1 61AB76E1
 P 1400 4750
 F 0 "D2" H 1500 4800 50  0000 C CNN
 F 1 "LRV" H 1200 4800 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1400 4750 50  0001 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 1400 4750 50  0001 C CNN
 F 3 "~" H 1400 4750 50  0001 C CNN
 	1    1400 4750
 	-1   0    0    -1  
@@ -2491,7 +2466,7 @@ U 1 1 61AB76D7
 P 1000 5100
 F 0 "R4" V 793 5100 50  0000 C CNN
 F 1 "WSP_R" V 884 5100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 930 5100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 930 5100 50  0001 C CNN
 F 3 "~" H 1000 5100 50  0001 C CNN
 	1    1000 5100
 	0    1    1    0   
@@ -2502,7 +2477,7 @@ U 1 1 61AB76CC
 P 1000 5500
 F 0 "R5" V 793 5500 50  0000 C CNN
 F 1 "O_R" V 884 5500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 930 5500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 930 5500 50  0001 C CNN
 F 3 "~" H 1000 5500 50  0001 C CNN
 	1    1000 5500
 	0    1    1    0   
@@ -2524,7 +2499,7 @@ U 1 1 61AB76B7
 P 1400 5100
 F 0 "D3" H 1500 5150 50  0000 C CNN
 F 1 "WSP" H 1200 5150 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1400 5100 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_FabRef" H 1400 5100 50  0001 C CNN
 F 3 "~" H 1400 5100 50  0001 C CNN
 	1    1400 5100
 	-1   0    0    -1  
@@ -2535,7 +2510,7 @@ U 1 1 61AA13AC
 P 1000 3250
 F 0 "R0" V 793 3250 50  0000 C CNN
 F 1 "LRV_R" V 884 3250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 930 3250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 930 3250 50  0001 C CNN
 F 3 "~" H 1000 3250 50  0001 C CNN
 	1    1000 3250
 	0    1    1    0   
@@ -2546,7 +2521,7 @@ U 1 1 61AA13A2
 P 1400 3250
 F 0 "D0" H 1500 3300 50  0000 C CNN
 F 1 "LRV" H 1200 3300 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1400 3250 50  0001 C CNN
+F 2 "HammerheadAudio:Backlit_Larvae_Smaller" H 1400 3250 50  0001 C CNN
 F 3 "~" H 1400 3250 50  0001 C CNN
 	1    1400 3250
 	-1   0    0    -1  
@@ -2557,7 +2532,7 @@ U 1 1 61A9D49C
 P 1000 3600
 F 0 "R1" V 793 3600 50  0000 C CNN
 F 1 "WSP_R" V 884 3600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 930 3600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 930 3600 50  0001 C CNN
 F 3 "~" H 1000 3600 50  0001 C CNN
 	1    1000 3600
 	0    1    1    0   
@@ -2568,7 +2543,7 @@ U 1 1 61A9AB0F
 P 1000 4000
 F 0 "R2" V 793 4000 50  0000 C CNN
 F 1 "O_R" V 884 4000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 930 4000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 930 4000 50  0001 C CNN
 F 3 "~" H 1000 4000 50  0001 C CNN
 	1    1000 4000
 	0    1    1    0   
@@ -2590,7 +2565,7 @@ U 1 1 63F54169
 P 1400 3600
 F 0 "D1" H 1500 3650 50  0000 C CNN
 F 1 "WSP" H 1200 3650 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1400 3600 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_FabRef" H 1400 3600 50  0001 C CNN
 F 3 "~" H 1400 3600 50  0001 C CNN
 	1    1400 3600
 	-1   0    0    -1  
@@ -2601,74 +2576,74 @@ U 1 1 619D36C9
 P 1450 1750
 F 0 "U0" H 1200 2400 50  0000 C CNN
 F 1 "74HC245" H 1700 2400 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 1450 1750 50  0001 C CNN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 1450 1750 50  0001 C CNN
 F 3 "C5625" H 1450 1750 50  0001 C CNN
 	1    1450 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8900 2000 8850 2000
+	8900 2100 8850 2100
 Wire Wire Line
-	8900 1900 8850 1900
+	8900 2200 8850 2200
 Wire Wire Line
-	8900 1800 8850 1800
+	8900 2300 8850 2300
 Wire Wire Line
-	8900 1700 8850 1700
+	8900 2400 8850 2400
 Wire Wire Line
-	8900 1600 8850 1600
-Wire Wire Line
-	8900 1500 8850 1500
-Wire Wire Line
-	8900 1400 8850 1400
-Wire Wire Line
-	8900 1300 8850 1300
-Text GLabel 8850 2000 0    50   UnSpc ~ 0
-T7
-Text GLabel 8850 1900 0    50   UnSpc ~ 0
-T6
-Text GLabel 8850 1800 0    50   UnSpc ~ 0
-T5
-Text GLabel 8850 1700 0    50   UnSpc ~ 0
-T4
-Text GLabel 8850 1600 0    50   UnSpc ~ 0
-T3
-Text GLabel 8850 1500 0    50   UnSpc ~ 0
-T2
-Text GLabel 8850 1400 0    50   UnSpc ~ 0
-T1
-Text GLabel 8850 1300 0    50   UnSpc ~ 0
-T0
-Text GLabel 8850 2100 0    50   UnSpc ~ 0
-T8
+	8900 2500 8850 2500
 Wire Wire Line
 	11050 2900 11100 2900
 Wire Wire Line
 	11050 3000 11100 3000
 Wire Wire Line
 	11050 3100 11100 3100
-Wire Wire Line
-	8900 2500 8850 2500
-Wire Wire Line
-	8900 2400 8850 2400
-Wire Wire Line
-	8900 2300 8850 2300
-Wire Wire Line
-	8900 2200 8850 2200
-Wire Wire Line
-	8900 2100 8850 2100
-Text GLabel 11100 2900 2    50   UnSpc ~ 0
-T15
-Text GLabel 11100 3000 2    50   UnSpc ~ 0
-T14
-Text GLabel 11100 3100 2    50   UnSpc ~ 0
-T13
-Text GLabel 8850 2500 0    50   UnSpc ~ 0
-T12
-Text GLabel 8850 2400 0    50   UnSpc ~ 0
-T11
-Text GLabel 8850 2300 0    50   UnSpc ~ 0
-T10
+Text GLabel 8850 2100 0    50   UnSpc ~ 0
+T7
 Text GLabel 8850 2200 0    50   UnSpc ~ 0
+T6
+Text GLabel 8850 2300 0    50   UnSpc ~ 0
+T5
+Text GLabel 8850 2400 0    50   UnSpc ~ 0
+T4
+Text GLabel 8850 2500 0    50   UnSpc ~ 0
+T3
+Text GLabel 11100 2900 2    50   UnSpc ~ 0
+T2
+Text GLabel 11100 3000 2    50   UnSpc ~ 0
+T1
+Text GLabel 11100 3100 2    50   UnSpc ~ 0
+T0
+Text GLabel 8850 2000 0    50   UnSpc ~ 0
+T8
+Wire Wire Line
+	8900 1300 8850 1300
+Wire Wire Line
+	8900 1400 8850 1400
+Wire Wire Line
+	8900 1500 8850 1500
+Wire Wire Line
+	8900 1600 8850 1600
+Wire Wire Line
+	8900 1700 8850 1700
+Wire Wire Line
+	8900 1800 8850 1800
+Wire Wire Line
+	8900 1900 8850 1900
+Wire Wire Line
+	8900 2000 8850 2000
+Text GLabel 8850 1300 0    50   UnSpc ~ 0
+T15
+Text GLabel 8850 1400 0    50   UnSpc ~ 0
+T14
+Text GLabel 8850 1500 0    50   UnSpc ~ 0
+T13
+Text GLabel 8850 1600 0    50   UnSpc ~ 0
+T12
+Text GLabel 8850 1700 0    50   UnSpc ~ 0
+T11
+Text GLabel 8850 1800 0    50   UnSpc ~ 0
+T10
+Text GLabel 8850 1900 0    50   UnSpc ~ 0
 T9
 Wire Wire Line
 	8050 5900 8150 5900
@@ -2678,7 +2653,7 @@ U 1 1 63A858A7
 P 8150 6750
 F 0 "R48" V 7943 6750 50  0000 C CNN
 F 1 "1k" V 8034 6750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 8080 6750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 8080 6750 50  0001 C CNN
 F 3 "~" H 8150 6750 50  0001 C CNN
 	1    8150 6750
 	-1   0    0    1   
@@ -2700,7 +2675,7 @@ U 1 1 63965F93
 P 15400 7850
 F 0 "R62" V 15607 7850 50  0000 C CNN
 F 1 "GP_R" V 15516 7850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 15330 7850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 15330 7850 50  0001 C CNN
 F 3 "~" H 15400 7850 50  0001 C CNN
 	1    15400 7850
 	-1   0    0    1   
@@ -2711,7 +2686,7 @@ U 1 1 63965F8D
 P 15400 8250
 F 0 "D37" H 15393 7995 50  0000 C CNN
 F 1 "PANIC" H 15393 8086 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 15400 8250 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_FabRef" H 15400 8250 50  0001 C CNN
 F 3 "~" H 15400 8250 50  0001 C CNN
 	1    15400 8250
 	0    1    -1   0   
@@ -2722,7 +2697,7 @@ U 1 1 63965F83
 P 14450 8800
 F 0 "R60" V 14657 8800 50  0000 C CNN
 F 1 "1k" V 14566 8800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 14380 8800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 14380 8800 50  0001 C CNN
 F 3 "~" H 14450 8800 50  0001 C CNN
 	1    14450 8800
 	0    1    -1   0   
@@ -2733,7 +2708,7 @@ U 1 1 63965F77
 P 15050 9050
 F 0 "R61" V 15257 9050 50  0000 C CNN
 F 1 "100k" V 15166 9050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef  (at -2.794 0)_  (descr _STANDOFF (#4 SCREW)_)_  (tags _STANDOFF (#4 SCREW)_)_  (attr virtual)_  (fp_text reference H3 (at 0 -3.302) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_text value M3_#4-40 (at 0 3.429) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_circle (center 0 0) (end 0 -2.794) (layer F.CrtYd) (width 0.127))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.3) (layers *.Cu *.Mask)_    (solder_mask_margin 0.1016) (clearance 1.5))_)_(module HammerheadAudio_M3_Plated (layer F.Cu) (tedit 6142030D) (tstamp 6196DF6B)_  (at -2.794 0)_  (descr _STANDOFF (#4 SCREW)_)_  (tags _STANDOFF (#4 SCREW)_)_  (attr virtual)_  (fp_text reference H3 (at 0 -3.302) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_text value M3_#4-40 (at 0 3.429) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_circle (center 0 0) (end 0 -2.794) (layer F.CrtYd) (width 0.127))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.3) (layers *.Cu *.Mask)_    (solder_mask_margin 0.1016) (clearance 1.5))_)_" V 14980 9050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 14980 9050 50  0001 C CNN
 F 3 "~" H 15050 9050 50  0001 C CNN
 	1    15050 9050
 	-1   0    0    -1  
@@ -2759,17 +2734,6 @@ Wire Wire Line
 	15050 8800 15000 8800
 Wire Wire Line
 	15050 9300 15050 9250
-$Comp
-L Transistor_BJT:2N3904 Q1
-U 1 1 63965F66
-P 15300 8800
-F 0 "Q1" H 15491 8846 50  0000 L CNN
-F 1 "2N3904" H 15491 8755 50  0000 L CNN
-F 2 "HammerheadAudio:TO-92_Inline_Centered" H 15500 8725 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 15300 8800 50  0001 L CNN
-	1    15300 8800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	15100 8800 15050 8800
 Connection ~ 15050 8800
@@ -2827,7 +2791,7 @@ U 1 1 63FD4DDF
 P 9950 6600
 F 0 "R50" H 9880 6554 50  0000 R CNN
 F 1 "100k" H 9880 6645 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef  (at -2.794 0)_  (descr _STANDOFF (#4 SCREW)_)_  (tags _STANDOFF (#4 SCREW)_)_  (attr virtual)_  (fp_text reference H3 (at 0 -3.302) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_text value M3_#4-40 (at 0 3.429) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_circle (center 0 0) (end 0 -2.794) (layer F.CrtYd) (width 0.127))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.3) (layers *.Cu *.Mask)_    (solder_mask_margin 0.1016) (clearance 1.5))_)_(module HammerheadAudio_M3_Plated (layer F.Cu) (tedit 6142030D) (tstamp 6196DF6B)_  (at -2.794 0)_  (descr _STANDOFF (#4 SCREW)_)_  (tags _STANDOFF (#4 SCREW)_)_  (attr virtual)_  (fp_text reference H3 (at 0 -3.302) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_text value M3_#4-40 (at 0 3.429) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_circle (center 0 0) (end 0 -2.794) (layer F.CrtYd) (width 0.127))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.3) (layers *.Cu *.Mask)_    (solder_mask_margin 0.1016) (clearance 1.5))_)_" V 9880 6600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 9880 6600 50  0001 C CNN
 F 3 "~" H 9950 6600 50  0001 C CNN
 	1    9950 6600
 	0    1    -1   0   
@@ -2838,7 +2802,7 @@ U 1 1 63FD4DE9
 P 9550 6800
 F 0 "R49" V 9343 6800 50  0000 C CNN
 F 1 "100k" V 9434 6800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef  (at -2.794 0)_  (descr _STANDOFF (#4 SCREW)_)_  (tags _STANDOFF (#4 SCREW)_)_  (attr virtual)_  (fp_text reference H3 (at 0 -3.302) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_text value M3_#4-40 (at 0 3.429) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_circle (center 0 0) (end 0 -2.794) (layer F.CrtYd) (width 0.127))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.3) (layers *.Cu *.Mask)_    (solder_mask_margin 0.1016) (clearance 1.5))_)_(module HammerheadAudio_M3_Plated (layer F.Cu) (tedit 6142030D) (tstamp 6196DF6B)_  (at -2.794 0)_  (descr _STANDOFF (#4 SCREW)_)_  (tags _STANDOFF (#4 SCREW)_)_  (attr virtual)_  (fp_text reference H3 (at 0 -3.302) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_text value M3_#4-40 (at 0 3.429) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_circle (center 0 0) (end 0 -2.794) (layer F.CrtYd) (width 0.127))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.3) (layers *.Cu *.Mask)_    (solder_mask_margin 0.1016) (clearance 1.5))_)_" V 9480 6800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 9480 6800 50  0001 C CNN
 F 3 "~" H 9550 6800 50  0001 C CNN
 	1    9550 6800
 	1    0    0    1   
@@ -2849,7 +2813,7 @@ U 2 1 63FD4DF3
 P 9950 6100
 F 0 "U3" H 9950 5733 50  0000 C CNN
 F 1 "MCP6002-xP" H 9950 5824 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 9950 6100 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9950 6100 50  0001 C CNN
 F 3 "C7377" H 9950 6100 50  0001 C CNN
 	2    9950 6100
 	1    0    0    -1  
@@ -2860,7 +2824,7 @@ U 1 1 63FD4DFD
 P 10550 6600
 F 0 "R55" V 10343 6600 50  0000 C CNN
 F 1 "1k" V 10434 6600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 10480 6600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 10480 6600 50  0001 C CNN
 F 3 "~" H 10550 6600 50  0001 C CNN
 	1    10550 6600
 	0    -1   -1   0   
@@ -2928,7 +2892,7 @@ U 1 1 641C0166
 P 12800 5750
 F 0 "U2" H 12800 5383 50  0000 C CNN
 F 1 "MCP6002-xP" H 12800 5474 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 12800 5750 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 12800 5750 50  0001 C CNN
 F 3 "C7377" H 12800 5750 50  0001 C CNN
 	1    12800 5750
 	1    0    0    -1  
@@ -2963,7 +2927,7 @@ U 1 1 6420F4E9
 P 12800 6250
 F 0 "R57" H 12730 6204 50  0000 R CNN
 F 1 "47k" H 12730 6295 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 12730 6250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 12730 6250 50  0001 C CNN
 F 3 "~" H 12800 6250 50  0001 C CNN
 	1    12800 6250
 	0    1    -1   0   
@@ -2974,69 +2938,67 @@ U 1 1 6420F4F3
 P 12400 6450
 F 0 "R56" V 12193 6450 50  0000 C CNN
 F 1 "100k" V 12284 6450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef  (at -2.794 0)_  (descr _STANDOFF (#4 SCREW)_)_  (tags _STANDOFF (#4 SCREW)_)_  (attr virtual)_  (fp_text reference H3 (at 0 -3.302) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_text value M3_#4-40 (at 0 3.429) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_circle (center 0 0) (end 0 -2.794) (layer F.CrtYd) (width 0.127))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.3) (layers *.Cu *.Mask)_    (solder_mask_margin 0.1016) (clearance 1.5))_)_(module HammerheadAudio_M3_Plated (layer F.Cu) (tedit 6142030D) (tstamp 6196DF6B)_  (at -2.794 0)_  (descr _STANDOFF (#4 SCREW)_)_  (tags _STANDOFF (#4 SCREW)_)_  (attr virtual)_  (fp_text reference H3 (at 0 -3.302) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_text value M3_#4-40 (at 0 3.429) (layer F.SilkS) hide_    (effects (font (size 0.6096 0.6096) (thickness 0.127)))_  )_  (fp_circle (center 0 0) (end 0 -2.794) (layer F.CrtYd) (width 0.127))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 -1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))_  (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.3) (layers *.Cu *.Mask)_    (solder_mask_margin 0.1016) (clearance 1.5))_)_" V 12330 6450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 12330 6450 50  0001 C CNN
 F 3 "~" H 12400 6450 50  0001 C CNN
 	1    12400 6450
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	13100 5750 13200 5750
+	13100 5750 13150 5750
 Wire Wire Line
 	12400 5850 12500 5850
 Text GLabel 12400 5650 0    50   Input ~ 0
 DROP
 Wire Wire Line
 	12400 5650 12500 5650
-Text GLabel 11800 8800 0    50   Input ~ 0
+Text GLabel 11300 8800 0    50   Input ~ 0
 DENS_IND
 $Comp
 L Device:R R58
 U 1 1 642A6D91
-P 12050 8800
-F 0 "R58" V 12257 8800 50  0000 C CNN
-F 1 "GP_R" V 12166 8800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 11980 8800 50  0001 C CNN
-F 3 "~" H 12050 8800 50  0001 C CNN
-	1    12050 8800
-	0    1    -1   0   
+P 12100 7900
+F 0 "R58" V 12307 7900 50  0000 C CNN
+F 1 "DENS_R" V 12216 7900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 12030 7900 50  0001 C CNN
+F 3 "~" H 12100 7900 50  0001 C CNN
+	1    12100 7900
+	1    0    0    1   
 $EndComp
 Wire Wire Line
-	11800 8800 11900 8800
+	11300 8800 11400 8800
 $Comp
 L Device:LED D32
 U 1 1 642F0F59
-P 12450 8800
-F 0 "D32" H 12443 8545 50  0000 C CNN
-F 1 "DENS" H 12443 8636 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 12450 8800 50  0001 C CNN
-F 3 "~" H 12450 8800 50  0001 C CNN
-	1    12450 8800
-	-1   0    0    -1  
+P 12100 8300
+F 0 "D32" H 12093 8045 50  0000 C CNN
+F 1 "DENS1" H 12093 8136 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_FabRef" H 12100 8300 50  0001 C CNN
+F 3 "~" H 12100 8300 50  0001 C CNN
+	1    12100 8300
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	12200 8800 12300 8800
+	12100 8050 12100 8150
 $Comp
 L power:GND #PWR0118
 U 1 1 6431705D
-P 12750 8900
-F 0 "#PWR0118" H 12750 8650 50  0001 C CNN
-F 1 "GND" H 12750 8750 50  0000 C CNN
-F 2 "" H 12750 8900 50  0001 C CNN
-F 3 "" H 12750 8900 50  0001 C CNN
-	1    12750 8900
+P 12100 9100
+F 0 "#PWR0118" H 12100 8850 50  0001 C CNN
+F 1 "GND" H 12100 8950 50  0000 C CNN
+F 2 "" H 12100 9100 50  0001 C CNN
+F 3 "" H 12100 9100 50  0001 C CNN
+	1    12100 9100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12600 8800 12750 8800
-Wire Wire Line
-	12750 8800 12750 8900
+	12100 8450 12100 8500
 $Comp
 L Device:R R59
 U 1 1 6438F215
 P 13450 5750
 F 0 "R59" V 13243 5750 50  0000 C CNN
 F 1 "WSP_R" V 13334 5750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" V 13380 5750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 13380 5750 50  0001 C CNN
 F 3 "~" H 13450 5750 50  0001 C CNN
 	1    13450 5750
 	0    1    1    0   
@@ -3050,7 +3012,7 @@ U 1 1 643B576C
 P 13850 5750
 F 0 "D34" H 13843 5495 50  0000 C CNN
 F 1 "DROP" H 13843 5586 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 13850 5750 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_FabRef" H 13850 5750 50  0001 C CNN
 F 3 "~" H 13850 5750 50  0001 C CNN
 	1    13850 5750
 	-1   0    0    -1  
@@ -3097,8 +3059,6 @@ Wire Wire Line
 	14150 6600 14150 6650
 Wire Wire Line
 	13200 6250 13200 6350
-Wire Wire Line
-	13200 6350 13850 6350
 Connection ~ 13200 6250
 $Comp
 L Amplifier_Operational:MCP6002-xP U3
@@ -3106,7 +3066,7 @@ U 3 1 64453D6E
 P 8550 10300
 F 0 "U3" H 8508 10346 50  0000 L CNN
 F 1 "MCP6002-xP" H 8508 10255 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 8550 10300 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8550 10300 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 8550 10300 50  0001 C CNN
 	3    8550 10300
 	1    0    0    -1  
@@ -3117,7 +3077,7 @@ U 3 1 64459340
 P 9750 10300
 F 0 "U2" H 9708 10346 50  0000 L CNN
 F 1 "MCP6002-xP" H 9708 10255 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 9750 10300 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9750 10300 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9750 10300 50  0001 C CNN
 	3    9750 10300
 	1    0    0    -1  
@@ -3128,7 +3088,7 @@ U 1 1 6445BF83
 P 8000 10300
 F 0 "C3" H 8115 10346 50  0000 L CNN
 F 1 "0.1uf" H 8115 10255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" H 8038 10150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" H 8038 10150 50  0001 C CNN
 F 3 "C14663" H 8000 10300 50  0001 C CNN
 	1    8000 10300
 	1    0    0    -1  
@@ -3139,7 +3099,7 @@ U 1 1 6445CA54
 P 9250 10300
 F 0 "C4" H 9365 10346 50  0000 L CNN
 F 1 "0.1uf" H 9365 10255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef" H 9288 10150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" H 9288 10150 50  0001 C CNN
 F 3 "C14663" H 9250 10300 50  0001 C CNN
 	1    9250 10300
 	1    0    0    -1  
@@ -3153,17 +3113,6 @@ F 1 "VDD" H 8467 10073 50  0000 C CNN
 F 2 "" H 8450 9900 50  0001 C CNN
 F 3 "" H 8450 9900 50  0001 C CNN
 	1    8450 9900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0124
-U 1 1 6445D7B5
-P 9650 9900
-F 0 "#PWR0124" H 9650 9750 50  0001 C CNN
-F 1 "+5V" V 9665 10028 50  0000 L CNN
-F 2 "" H 9650 9900 50  0001 C CNN
-F 3 "" H 9650 9900 50  0001 C CNN
-	1    9650 9900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3352,12 +3301,12 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x01_Female J25
 U 1 1 64940F10
-P 15350 850
-F 0 "J25" H 15242 625 50  0000 C CNN
-F 1 "PWR" H 15242 716 50  0000 C CNN
-F 2 "HammerheadAudio:M3_Plated" H 15350 850 50  0001 C CNN
-F 3 "~" H 15350 850 50  0001 C CNN
-	1    15350 850 
+P 14800 950
+F 0 "J25" H 14692 725 50  0000 C CNN
+F 1 "PWR" H 14692 816 50  0000 C CNN
+F 2 "HammerheadAudio:M3_Plated" H 14800 950 50  0001 C CNN
+F 3 "~" H 14800 950 50  0001 C CNN
+	1    14800 950 
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -3376,128 +3325,394 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x01_Female J20
 U 1 1 6499B183
-P 15350 1250
-F 0 "J20" H 15242 1025 50  0000 C CNN
-F 1 "GND" H 15242 1116 50  0000 C CNN
-F 2 "HammerheadAudio:M3_Plated" H 15350 1250 50  0001 C CNN
-F 3 "~" H 15350 1250 50  0001 C CNN
-	1    15350 1250
+P 6750 2150
+F 0 "J20" H 6642 1925 50  0000 C CNN
+F 1 "GND" H 6642 2016 50  0000 C CNN
+F 2 "HammerheadAudio:M3_Plated" H 6750 2150 50  0001 C CNN
+F 3 "~" H 6750 2150 50  0001 C CNN
+	1    6750 2150
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x01_Female J21
 U 1 1 649C8A28
-P 15350 1700
-F 0 "J21" H 15242 1475 50  0000 C CNN
-F 1 "GND" H 15242 1566 50  0000 C CNN
-F 2 "HammerheadAudio:M3_Plated" H 15350 1700 50  0001 C CNN
-F 3 "~" H 15350 1700 50  0001 C CNN
-	1    15350 1700
+P 6750 2600
+F 0 "J21" H 6642 2375 50  0000 C CNN
+F 1 "GND" H 6642 2466 50  0000 C CNN
+F 2 "HammerheadAudio:M3_Plated" H 6750 2600 50  0001 C CNN
+F 3 "~" H 6750 2600 50  0001 C CNN
+	1    6750 2600
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x01_Female J22
 U 1 1 649F662F
-P 15350 2200
-F 0 "J22" H 15242 1975 50  0000 C CNN
-F 1 "GND" H 15242 2066 50  0000 C CNN
-F 2 "HammerheadAudio:M3_Plated" H 15350 2200 50  0001 C CNN
-F 3 "~" H 15350 2200 50  0001 C CNN
-	1    15350 2200
+P 6750 3100
+F 0 "J22" H 6642 2875 50  0000 C CNN
+F 1 "GND" H 6642 2966 50  0000 C CNN
+F 2 "HammerheadAudio:M3_Plated" H 6750 3100 50  0001 C CNN
+F 3 "~" H 6750 3100 50  0001 C CNN
+	1    6750 3100
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x01_Female J23
 U 1 1 64A8135B
-P 15350 2650
-F 0 "J23" H 15242 2425 50  0000 C CNN
-F 1 "GND" H 15242 2516 50  0000 C CNN
-F 2 "HammerheadAudio:M3_Plated" H 15350 2650 50  0001 C CNN
-F 3 "~" H 15350 2650 50  0001 C CNN
-	1    15350 2650
+P 6750 3550
+F 0 "J23" H 6642 3325 50  0000 C CNN
+F 1 "GND" H 6642 3416 50  0000 C CNN
+F 2 "HammerheadAudio:M3_Plated" H 6750 3550 50  0001 C CNN
+F 3 "~" H 6750 3550 50  0001 C CNN
+	1    6750 3550
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x01_Female J24
 U 1 1 64A81370
-P 15350 3150
-F 0 "J24" H 15242 2925 50  0000 C CNN
-F 1 "GND" H 15242 3016 50  0000 C CNN
-F 2 "HammerheadAudio:M3_Plated" H 15350 3150 50  0001 C CNN
-F 3 "~" H 15350 3150 50  0001 C CNN
-	1    15350 3150
+P 6750 4050
+F 0 "J24" H 6642 3825 50  0000 C CNN
+F 1 "GND" H 6642 3916 50  0000 C CNN
+F 2 "HammerheadAudio:M3_Plated" H 6750 4050 50  0001 C CNN
+F 3 "~" H 6750 4050 50  0001 C CNN
+	1    6750 4050
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D D38
 U 1 1 64B107EF
-P 14650 1100
-F 0 "D38" V 14604 1179 50  0000 L CNN
-F 1 "M7" V 14695 1179 50  0000 L CNN
-F 2 "" H 14650 1100 50  0001 C CNN
-F 3 "~" H 14650 1100 50  0001 C CNN
-	1    14650 1100
+P 11950 1150
+F 0 "D38" V 11904 1229 50  0000 L CNN
+F 1 "M7" V 11995 1229 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 11950 1150 50  0001 C CNN
+F 3 "~" H 11950 1150 50  0001 C CNN
+	1    11950 1150
 	0    1    1    0   
 $EndComp
 $Comp
 L power:VDD #PWR024
 U 1 1 64B10A89
-P 14650 900
-F 0 "#PWR024" H 14650 750 50  0001 C CNN
-F 1 "VDD" H 14667 1073 50  0000 C CNN
-F 2 "" H 14650 900 50  0001 C CNN
-F 3 "" H 14650 900 50  0001 C CNN
-	1    14650 900 
+P 11950 950
+F 0 "#PWR024" H 11950 800 50  0001 C CNN
+F 1 "VDD" H 11967 1123 50  0000 C CNN
+F 2 "" H 11950 950 50  0001 C CNN
+F 3 "" H 11950 950 50  0001 C CNN
+	1    11950 950 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR025
 U 1 1 64B110E9
-P 14650 1300
-F 0 "#PWR025" H 14650 1050 50  0001 C CNN
-F 1 "GND" H 14655 1127 50  0000 C CNN
-F 2 "" H 14650 1300 50  0001 C CNN
-F 3 "" H 14650 1300 50  0001 C CNN
-	1    14650 1300
+P 11950 1350
+F 0 "#PWR025" H 11950 1100 50  0001 C CNN
+F 1 "GND" H 11955 1177 50  0000 C CNN
+F 2 "" H 11950 1350 50  0001 C CNN
+F 3 "" H 11950 1350 50  0001 C CNN
+	1    11950 1350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14650 900  14650 950 
+	11950 950  11950 1000
 Wire Wire Line
-	14650 1250 14650 1300
+	11950 1300 11950 1350
 $Comp
 L power:GND #PWR026
 U 1 1 64B9B959
-P 15700 3250
-F 0 "#PWR026" H 15700 3000 50  0001 C CNN
-F 1 "GND" H 15705 3077 50  0000 C CNN
-F 2 "" H 15700 3250 50  0001 C CNN
-F 3 "" H 15700 3250 50  0001 C CNN
-	1    15700 3250
+P 7100 4150
+F 0 "#PWR026" H 7100 3900 50  0001 C CNN
+F 1 "GND" H 7105 3977 50  0000 C CNN
+F 2 "" H 7100 4150 50  0001 C CNN
+F 3 "" H 7100 4150 50  0001 C CNN
+	1    7100 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15700 1250 15700 1700
+	7100 2150 7100 2600
 Wire Wire Line
-	15550 1250 15700 1250
+	6950 2150 7100 2150
 Wire Wire Line
-	15550 3150 15700 3150
-Connection ~ 15700 3150
+	6950 4050 7100 4050
+Connection ~ 7100 4050
 Wire Wire Line
-	15700 3150 15700 3250
+	7100 4050 7100 4150
 Wire Wire Line
-	15550 2650 15700 2650
-Connection ~ 15700 2650
+	6950 3550 7100 3550
+Connection ~ 7100 3550
 Wire Wire Line
-	15700 2650 15700 3150
+	7100 3550 7100 4050
 Wire Wire Line
-	15550 2200 15700 2200
-Connection ~ 15700 2200
+	6950 3100 7100 3100
+Connection ~ 7100 3100
 Wire Wire Line
-	15700 2200 15700 2650
+	7100 3100 7100 3550
 Wire Wire Line
-	15550 1700 15700 1700
-Connection ~ 15700 1700
+	6950 2600 7100 2600
+Connection ~ 7100 2600
 Wire Wire Line
-	15700 1700 15700 2200
+	7100 2600 7100 3100
+Wire Wire Line
+	850  2150 850  2600
+Wire Wire Line
+	850  2600 950  2600
+Connection ~ 950  2600
+Wire Wire Line
+	3700 2200 3700 2650
+Wire Wire Line
+	3700 2650 3800 2650
+Connection ~ 3800 2650
+$Comp
+L Device:R R66
+U 1 1 61D644F6
+P 13450 5350
+F 0 "R66" V 13243 5350 50  0000 C CNN
+F 1 "WSP_R" V 13334 5350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 13380 5350 50  0001 C CNN
+F 3 "~" H 13450 5350 50  0001 C CNN
+	1    13450 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D41
+U 1 1 61D64F6C
+P 13850 5350
+F 0 "D41" H 13843 5095 50  0000 C CNN
+F 1 "DROP2" H 13843 5186 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_FabRef" H 13850 5350 50  0001 C CNN
+F 3 "~" H 13850 5350 50  0001 C CNN
+	1    13850 5350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 61D64F76
+P 14100 5350
+F 0 "#PWR027" H 14100 5100 50  0001 C CNN
+F 1 "GND" H 14100 5200 50  0000 C CNN
+F 2 "" H 14100 5350 50  0001 C CNN
+F 3 "" H 14100 5350 50  0001 C CNN
+	1    14100 5350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13600 5350 13700 5350
+Wire Wire Line
+	14000 5350 14100 5350
+Wire Wire Line
+	13150 5750 13150 5350
+Wire Wire Line
+	13150 5350 13300 5350
+Connection ~ 13150 5750
+Wire Wire Line
+	13150 5750 13200 5750
+$Comp
+L Transistor_BJT:MMBT3904 Q2
+U 1 1 61E1CEB2
+P 15300 8800
+F 0 "Q2" H 15491 8846 50  0000 L CNN
+F 1 "MMBT3904" H 15491 8755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 15500 8725 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 15300 8800 50  0001 L CNN
+	1    15300 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R63
+U 1 1 61E4E237
+P 11550 8800
+F 0 "R63" V 11343 8800 50  0000 C CNN
+F 1 "1k" V 11434 8800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 11480 8800 50  0001 C CNN
+F 3 "~" H 11550 8800 50  0001 C CNN
+	1    11550 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R64
+U 1 1 61EAFDB4
+P 12600 7900
+F 0 "R64" V 12807 7900 50  0000 C CNN
+F 1 "DENS_R" V 12716 7900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 12530 7900 50  0001 C CNN
+F 3 "~" H 12600 7900 50  0001 C CNN
+	1    12600 7900
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED D39
+U 1 1 61EAFDBE
+P 12600 8300
+F 0 "D39" H 12593 8045 50  0000 C CNN
+F 1 "DENS2" H 12593 8136 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_FabRef" H 12600 8300 50  0001 C CNN
+F 3 "~" H 12600 8300 50  0001 C CNN
+	1    12600 8300
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	12600 8050 12600 8150
+Wire Wire Line
+	12600 8450 12600 8500
+$Comp
+L Device:R R65
+U 1 1 61EE21FD
+P 13100 7900
+F 0 "R65" V 13307 7900 50  0000 C CNN
+F 1 "DENS_R" V 13216 7900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 13030 7900 50  0001 C CNN
+F 3 "~" H 13100 7900 50  0001 C CNN
+	1    13100 7900
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED D40
+U 1 1 61EE2207
+P 13100 8300
+F 0 "D40" H 13093 8045 50  0000 C CNN
+F 1 "DENS3" H 13093 8136 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_FabRef" H 13100 8300 50  0001 C CNN
+F 3 "~" H 13100 8300 50  0001 C CNN
+	1    13100 8300
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	13100 8050 13100 8150
+Wire Wire Line
+	13100 8450 13100 8550
+$Comp
+L Transistor_BJT:MMBT3904 Q1
+U 1 1 61F149C7
+P 12000 8800
+F 0 "Q1" H 12191 8846 50  0000 L CNN
+F 1 "MMBT3904" H 12191 8755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 12200 8725 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 12000 8800 50  0001 L CNN
+	1    12000 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11700 8800 11800 8800
+Wire Wire Line
+	12600 8500 12100 8500
+Connection ~ 12100 8500
+Wire Wire Line
+	12100 8500 12100 8550
+Wire Wire Line
+	12100 8550 13100 8550
+Connection ~ 12100 8550
+Wire Wire Line
+	12100 8550 12100 8600
+Wire Wire Line
+	12100 9000 12100 9100
+$Comp
+L power:VDD #PWR011
+U 1 1 62043852
+P 13100 7650
+F 0 "#PWR011" H 13100 7500 50  0001 C CNN
+F 1 "VDD" H 13117 7823 50  0000 C CNN
+F 2 "" H 13100 7650 50  0001 C CNN
+F 3 "" H 13100 7650 50  0001 C CNN
+	1    13100 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13100 7650 13100 7700
+Wire Wire Line
+	13100 7700 12600 7700
+Wire Wire Line
+	12100 7700 12100 7750
+Connection ~ 13100 7700
+Wire Wire Line
+	13100 7700 13100 7750
+Wire Wire Line
+	12600 7750 12600 7700
+Connection ~ 12600 7700
+Wire Wire Line
+	12600 7700 12100 7700
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 6219BDBD
+P 15350 950
+F 0 "SW1" H 15350 1235 50  0000 C CNN
+F 1 "SW_SPDT" H 15350 1144 50  0000 C CNN
+F 2 "HammerheadAudio:Tayda_Slide_SPDT" H 15350 950 50  0001 C CNN
+F 3 "~" H 15350 950 50  0001 C CNN
+	1    15350 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15000 950  15150 950 
+NoConn ~ 15550 1050
+$Comp
+L Device:R R67
+U 1 1 62412A0B
+P 13450 6350
+F 0 "R67" V 13243 6350 50  0000 C CNN
+F 1 "1k" V 13334 6350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" V 13380 6350 50  0001 C CNN
+F 3 "~" H 13450 6350 50  0001 C CNN
+	1    13450 6350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13200 6350 13300 6350
+Wire Wire Line
+	13600 6350 13850 6350
+$Comp
+L power:+3.3V #PWR0124
+U 1 1 624B995D
+P 9650 9900
+F 0 "#PWR0124" H 9650 9750 50  0001 C CNN
+F 1 "+3.3V" H 9665 10073 50  0000 C CNN
+F 2 "" H 9650 9900 50  0001 C CNN
+F 3 "" H 9650 9900 50  0001 C CNN
+	1    9650 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 624DF78A
+P 14450 2250
+F 0 "C?" H 14565 2296 50  0000 L CNN
+F 1 "0.1uf" H 14565 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" H 14488 2100 50  0001 C CNN
+F 3 "C14663" H 14450 2250 50  0001 C CNN
+	1    14450 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 624DFBC9
+P 14950 2250
+F 0 "C?" H 15065 2296 50  0000 L CNN
+F 1 "0.1uf" H 15065 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_SmallRef_Fab" H 14988 2100 50  0001 C CNN
+F 3 "C14663" H 14950 2250 50  0001 C CNN
+	1    14950 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13600 2450 13600 2500
+Wire Wire Line
+	13600 2500 14450 2500
+Wire Wire Line
+	14950 2500 14950 2400
+Connection ~ 13600 2500
+Wire Wire Line
+	13600 2500 13600 2550
+Wire Wire Line
+	14450 2400 14450 2500
+Connection ~ 14450 2500
+Wire Wire Line
+	14450 2500 14950 2500
+Wire Wire Line
+	13600 1950 14450 1950
+Wire Wire Line
+	14950 1950 14950 2100
+Connection ~ 13600 1950
+Wire Wire Line
+	13600 1950 13600 2100
+Wire Wire Line
+	14450 1950 14450 2100
+Connection ~ 14450 1950
+Wire Wire Line
+	14450 1950 14950 1950
 $EndSCHEMATC
