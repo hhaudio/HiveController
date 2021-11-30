@@ -1366,7 +1366,7 @@ U 1 1 627C694B
 P 7850 5800
 F 0 "J17" H 7878 6025 50  0000 C CNN
 F 1 "DENS_IN" H 7878 5934 50  0000 C CNN
-F 2 "HammerheadAudio:EuroJack_MonoSW_THT_NOREF_Mask" H 7850 5800 50  0001 C CNN
+F 2 "HammerheadAudio:EuroJack_MonoSW_THT_NOREF_Mask_SmallHoles_NoSilk" H 7850 5800 50  0001 C CNN
 F 3 "~" H 7850 5800 50  0001 C CNN
 	1    7850 5800
 	1    0    0    -1  
@@ -1553,7 +1553,7 @@ U 1 1 61B78B97
 P 5600 8600
 F 0 "J15" H 5628 8825 50  0000 C CNN
 F 1 "WASP_OUT" H 5628 8734 50  0000 C CNN
-F 2 "HammerheadAudio:EuroJack_Hex" H 5600 8600 50  0001 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex_SmallHoles_NoSilk" H 5600 8600 50  0001 C CNN
 F 3 "~" H 5600 8600 50  0001 C CNN
 	1    5600 8600
 	-1   0    0    -1  
@@ -1619,7 +1619,7 @@ U 1 1 61B78B3B
 P 5600 7100
 F 0 "J14" H 5628 7325 50  0000 C CNN
 F 1 "WASP_OUT" H 5628 7234 50  0000 C CNN
-F 2 "HammerheadAudio:EuroJack_Hex" H 5600 7100 50  0001 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex_SmallHoles_NoSilk" H 5600 7100 50  0001 C CNN
 F 3 "~" H 5600 7100 50  0001 C CNN
 	1    5600 7100
 	-1   0    0    -1  
@@ -1685,7 +1685,7 @@ U 1 1 61B78ADF
 P 5600 5600
 F 0 "J13" H 5628 5825 50  0000 C CNN
 F 1 "WASP_OUT" H 5628 5734 50  0000 C CNN
-F 2 "HammerheadAudio:EuroJack_Hex" H 5600 5600 50  0001 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex_SmallHoles_NoSilk" H 5600 5600 50  0001 C CNN
 F 3 "~" H 5600 5600 50  0001 C CNN
 	1    5600 5600
 	-1   0    0    -1  
@@ -1751,7 +1751,7 @@ U 1 1 61B78A83
 P 5600 4100
 F 0 "J12" H 5628 4325 50  0000 C CNN
 F 1 "WASP_OUT" H 5628 4234 50  0000 C CNN
-F 2 "HammerheadAudio:EuroJack_Hex" H 5600 4100 50  0001 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex_SmallHoles_NoSilk" H 5600 4100 50  0001 C CNN
 F 3 "~" H 5600 4100 50  0001 C CNN
 	1    5600 4100
 	-1   0    0    -1  
@@ -1817,7 +1817,7 @@ U 1 1 61B78A27
 P 4300 8550
 F 0 "J11" H 4328 8775 50  0000 C CNN
 F 1 "WASP_OUT" H 4328 8684 50  0000 C CNN
-F 2 "HammerheadAudio:EuroJack_Hex" H 4300 8550 50  0001 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex_SmallHoles_NoSilk" H 4300 8550 50  0001 C CNN
 F 3 "~" H 4300 8550 50  0001 C CNN
 	1    4300 8550
 	-1   0    0    -1  
@@ -1883,7 +1883,7 @@ U 1 1 61B789CB
 P 4300 7050
 F 0 "J10" H 4328 7275 50  0000 C CNN
 F 1 "WASP_OUT" H 4328 7184 50  0000 C CNN
-F 2 "HammerheadAudio:EuroJack_Hex" H 4300 7050 50  0001 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex_SmallHoles_NoSilk" H 4300 7050 50  0001 C CNN
 F 3 "~" H 4300 7050 50  0001 C CNN
 	1    4300 7050
 	-1   0    0    -1  
@@ -1949,7 +1949,7 @@ U 1 1 61B7896F
 P 4300 5550
 F 0 "J9" H 4328 5775 50  0000 C CNN
 F 1 "WASP_OUT" H 4328 5684 50  0000 C CNN
-F 2 "HammerheadAudio:EuroJack_Hex" H 4300 5550 50  0001 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex_SmallHoles_NoSilk" H 4300 5550 50  0001 C CNN
 F 3 "~" H 4300 5550 50  0001 C CNN
 	1    4300 5550
 	-1   0    0    -1  
@@ -2015,7 +2015,7 @@ U 1 1 61B78903
 P 4300 4050
 F 0 "J8" H 4328 4275 50  0000 C CNN
 F 1 "WASP_OUT" H 4328 4184 50  0000 C CNN
-F 2 "HammerheadAudio:EuroJack_Hex" H 4300 4050 50  0001 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex_SmallHoles_NoSilk" H 4300 4050 50  0001 C CNN
 F 3 "~" H 4300 4050 50  0001 C CNN
 	1    4300 4050
 	-1   0    0    -1  
@@ -2092,7 +2092,7 @@ U 1 1 61ACBB2E
 P 2750 8550
 F 0 "J7" H 2778 8775 50  0000 C CNN
 F 1 "WASP_OUT" H 2778 8684 50  0000 C CNN
-F 2 "HammerheadAudio:EuroJack_Hex" H 2750 8550 50  0001 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex_SmallHoles_NoSilk" H 2750 8550 50  0001 C CNN
 F 3 "~" H 2750 8550 50  0001 C CNN
 	1    2750 8550
 	-1   0    0    -1  
@@ -2158,7 +2158,7 @@ U 1 1 61ACBAD2
 P 2750 7050
 F 0 "J6" H 2778 7275 50  0000 C CNN
 F 1 "WASP_OUT" H 2778 7184 50  0000 C CNN
-F 2 "HammerheadAudio:EuroJack_Hex" H 2750 7050 50  0001 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex_SmallHoles_NoSilk" H 2750 7050 50  0001 C CNN
 F 3 "~" H 2750 7050 50  0001 C CNN
 	1    2750 7050
 	-1   0    0    -1  
@@ -2224,7 +2224,7 @@ U 1 1 61ACBA76
 P 2750 5550
 F 0 "J5" H 2778 5775 50  0000 C CNN
 F 1 "WASP_OUT" H 2778 5684 50  0000 C CNN
-F 2 "HammerheadAudio:EuroJack_Hex" H 2750 5550 50  0001 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex_SmallHoles_NoSilk" H 2750 5550 50  0001 C CNN
 F 3 "~" H 2750 5550 50  0001 C CNN
 	1    2750 5550
 	-1   0    0    -1  
@@ -2290,7 +2290,7 @@ U 1 1 61ACBA1A
 P 2750 4050
 F 0 "J4" H 2778 4275 50  0000 C CNN
 F 1 "WASP_OUT" H 2778 4184 50  0000 C CNN
-F 2 "HammerheadAudio:EuroJack_Hex" H 2750 4050 50  0001 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex_SmallHoles_NoSilk" H 2750 4050 50  0001 C CNN
 F 3 "~" H 2750 4050 50  0001 C CNN
 	1    2750 4050
 	-1   0    0    -1  
@@ -2356,7 +2356,7 @@ U 1 1 61AC5B02
 P 1450 8500
 F 0 "J3" H 1478 8725 50  0000 C CNN
 F 1 "WASP_OUT" H 1478 8634 50  0000 C CNN
-F 2 "HammerheadAudio:EuroJack_Hex" H 1450 8500 50  0001 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex_SmallHoles_NoSilk" H 1450 8500 50  0001 C CNN
 F 3 "~" H 1450 8500 50  0001 C CNN
 	1    1450 8500
 	-1   0    0    -1  
@@ -2422,7 +2422,7 @@ U 1 1 61ABAF76
 P 1450 7000
 F 0 "J2" H 1478 7225 50  0000 C CNN
 F 1 "WASP_OUT" H 1478 7134 50  0000 C CNN
-F 2 "HammerheadAudio:EuroJack_Hex" H 1450 7000 50  0001 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex_SmallHoles_NoSilk" H 1450 7000 50  0001 C CNN
 F 3 "~" H 1450 7000 50  0001 C CNN
 	1    1450 7000
 	-1   0    0    -1  
@@ -2488,7 +2488,7 @@ U 1 1 61AB76C1
 P 1450 5500
 F 0 "J1" H 1478 5725 50  0000 C CNN
 F 1 "WASP_OUT" H 1478 5634 50  0000 C CNN
-F 2 "HammerheadAudio:EuroJack_Hex" H 1450 5500 50  0001 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex_SmallHoles_NoSilk" H 1450 5500 50  0001 C CNN
 F 3 "~" H 1450 5500 50  0001 C CNN
 	1    1450 5500
 	-1   0    0    -1  
@@ -2554,7 +2554,7 @@ U 1 1 61CDCF28
 P 1450 4000
 F 0 "J0" H 1478 4225 50  0000 C CNN
 F 1 "WASP_OUT" H 1478 4134 50  0000 C CNN
-F 2 "HammerheadAudio:EuroJack_Hex" H 1450 4000 50  0001 C CNN
+F 2 "HammerheadAudio:EuroJack_Hex_SmallHoles_NoSilk" H 1450 4000 50  0001 C CNN
 F 3 "~" H 1450 4000 50  0001 C CNN
 	1    1450 4000
 	-1   0    0    -1  
@@ -2840,7 +2840,7 @@ U 1 1 64090829
 P 10950 6600
 F 0 "J16" H 10978 6825 50  0000 C CNN
 F 1 "DENS_OUT" H 10978 6734 50  0000 C CNN
-F 2 "HammerheadAudio:EuroJack_MonoSW_THT_NOREF_Mask" H 10950 6600 50  0001 C CNN
+F 2 "HammerheadAudio:EuroJack_MonoSW_THT_NOREF_Mask_SmallHoles_NoSilk" H 10950 6600 50  0001 C CNN
 F 3 "~" H 10950 6600 50  0001 C CNN
 	1    10950 6600
 	-1   0    0    -1  
@@ -3038,7 +3038,7 @@ U 1 1 64402DFD
 P 14050 6350
 F 0 "J18" H 14078 6575 50  0000 C CNN
 F 1 "DROP_OUT" H 14078 6484 50  0000 C CNN
-F 2 "HammerheadAudio:EuroJack_MonoSW_THT_NOREF_Mask" H 14050 6350 50  0001 C CNN
+F 2 "HammerheadAudio:EuroJack_MonoSW_THT_NOREF_Mask_SmallHoles_NoSilk" H 14050 6350 50  0001 C CNN
 F 3 "~" H 14050 6350 50  0001 C CNN
 	1    14050 6350
 	-1   0    0    -1  
@@ -3208,7 +3208,7 @@ U 1 1 6474B78C
 P 14000 8800
 F 0 "J19" H 14028 9025 50  0000 C CNN
 F 1 "PANIC_IN" H 14028 8934 50  0000 C CNN
-F 2 "HammerheadAudio:EuroJack_MonoSW_THT_NOREF_Mask" H 14000 8800 50  0001 C CNN
+F 2 "HammerheadAudio:EuroJack_MonoSW_THT_NOREF_Mask_SmallHoles_NoSilk" H 14000 8800 50  0001 C CNN
 F 3 "~" H 14000 8800 50  0001 C CNN
 	1    14000 8800
 	1    0    0    -1  
@@ -3417,12 +3417,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR026
 U 1 1 64B9B959
-P 7100 4150
-F 0 "#PWR026" H 7100 3900 50  0001 C CNN
-F 1 "GND" H 7105 3977 50  0000 C CNN
-F 2 "" H 7100 4150 50  0001 C CNN
-F 3 "" H 7100 4150 50  0001 C CNN
-	1    7100 4150
+P 7100 5300
+F 0 "#PWR026" H 7100 5050 50  0001 C CNN
+F 1 "GND" H 7105 5127 50  0000 C CNN
+F 2 "" H 7100 5300 50  0001 C CNN
+F 3 "" H 7100 5300 50  0001 C CNN
+	1    7100 5300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3432,8 +3432,6 @@ Wire Wire Line
 Wire Wire Line
 	6950 4050 7100 4050
 Connection ~ 7100 4050
-Wire Wire Line
-	7100 4050 7100 4150
 Wire Wire Line
 	6950 3550 7100 3550
 Connection ~ 7100 3550
@@ -3715,4 +3713,38 @@ F 3 "" H 9650 9900 50  0001 C CNN
 	1    9650 9900
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x01_Female J26
+U 1 1 61D0182E
+P 6750 4550
+F 0 "J26" H 6642 4325 50  0000 C CNN
+F 1 "GND" H 6642 4416 50  0000 C CNN
+F 2 "HammerheadAudio:M3_Plated" H 6750 4550 50  0001 C CNN
+F 3 "~" H 6750 4550 50  0001 C CNN
+	1    6750 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J27
+U 1 1 61D01838
+P 6750 5050
+F 0 "J27" H 6642 4825 50  0000 C CNN
+F 1 "GND" H 6642 4916 50  0000 C CNN
+F 2 "HammerheadAudio:M3_Plated" H 6750 5050 50  0001 C CNN
+F 3 "~" H 6750 5050 50  0001 C CNN
+	1    6750 5050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7100 4050 7100 4550
+Wire Wire Line
+	6950 5050 7100 5050
+Connection ~ 7100 5050
+Wire Wire Line
+	7100 5050 7100 5300
+Wire Wire Line
+	6950 4550 7100 4550
+Connection ~ 7100 4550
+Wire Wire Line
+	7100 4550 7100 5050
 $EndSCHEMATC
