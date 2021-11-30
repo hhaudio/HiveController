@@ -1283,15 +1283,15 @@ Wire Wire Line
 	13550 4100 13600 4100
 Wire Wire Line
 	13900 4100 13950 4100
-Text GLabel 11900 4300 3    50   Input ~ 0
+Text GLabel 13750 4300 3    50   Input ~ 0
 MIN_DENS
-Text GLabel 12850 4300 3    50   Input ~ 0
+Text GLabel 14600 4300 3    50   Input ~ 0
 MAX_DENS
 Wire Wire Line
 	11900 4250 11900 4300
 Wire Wire Line
 	12850 4250 12850 4300
-Text GLabel 13750 4300 3    50   Input ~ 0
+Text GLabel 11900 4300 3    50   Input ~ 0
 ROC
 Wire Wire Line
 	13750 4250 13750 4300
@@ -1332,7 +1332,7 @@ L Device:R_POT_TRIM RV3
 U 1 1 62B0F4A9
 P 13750 4100
 F 0 "RV3" V 13543 4100 50  0000 C CNN
-F 1 "CHANGE_RATE" V 13634 4100 50  0000 C CNN
+F 1 "MIN_DENS" V 13634 4100 50  0000 C CNN
 F 2 "Crossley_Footprints:SMD_TRIM_JLC" H 13750 4100 50  0001 C CNN
 F 3 "~" H 13750 4100 50  0001 C CNN
 	1    13750 4100
@@ -1343,7 +1343,7 @@ L Device:R_POT_TRIM RV2
 U 1 1 62A673F9
 P 12850 4100
 F 0 "RV2" V 12643 4100 50  0000 C CNN
-F 1 "MAX_DENS" V 12734 4100 50  0000 C CNN
+F 1 "XCTRL" V 12734 4100 50  0000 C CNN
 F 2 "Crossley_Footprints:SMD_TRIM_JLC" H 12850 4100 50  0001 C CNN
 F 3 "~" H 12850 4100 50  0001 C CNN
 	1    12850 4100
@@ -1354,7 +1354,7 @@ L Device:R_POT_TRIM RV1
 U 1 1 629E5FAE
 P 11900 4100
 F 0 "RV1" V 11693 4100 50  0000 C CNN
-F 1 "MIN_DENS" V 11784 4100 50  0000 C CNN
+F 1 "ROC" V 11784 4100 50  0000 C CNN
 F 2 "Crossley_Footprints:SMD_TRIM_JLC" H 11900 4100 50  0001 C CNN
 F 3 "~" H 11900 4100 50  0001 C CNN
 	1    11900 4100
@@ -2607,11 +2607,11 @@ Text GLabel 8850 2400 0    50   UnSpc ~ 0
 T4
 Text GLabel 8850 2500 0    50   UnSpc ~ 0
 T3
-Text GLabel 11100 2900 2    50   UnSpc ~ 0
-T2
 Text GLabel 11100 3000 2    50   UnSpc ~ 0
-T1
+T2
 Text GLabel 11100 3100 2    50   UnSpc ~ 0
+T1
+Text GLabel 8850 3100 0    50   UnSpc ~ 0
 T0
 Text GLabel 8850 2000 0    50   UnSpc ~ 0
 T8
@@ -3186,19 +3186,19 @@ F 3 "" H 8700 1200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8700 1200 8900 1200
-Text GLabel 8850 3100 0    50   Input ~ 0
+Text GLabel 11100 2500 2    50   Input ~ 0
 DROP
 Wire Wire Line
 	8850 3100 8900 3100
-Text GLabel 11100 2800 2    50   Input ~ 0
+Text GLabel 11100 2700 2    50   Input ~ 0
 MIN_DENS
 Wire Wire Line
 	11050 2800 11100 2800
-Text GLabel 11100 2700 2    50   Input ~ 0
+Text GLabel 11100 2600 2    50   Input ~ 0
 MAX_DENS
 Wire Wire Line
 	11050 2700 11100 2700
-Text GLabel 11100 2600 2    50   Input ~ 0
+Text GLabel 11100 2900 2    50   Input ~ 0
 ROC
 Wire Wire Line
 	11050 2600 11100 2600
@@ -3226,15 +3226,15 @@ F 3 "" H 13900 9100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	13900 9050 13900 9100
-Text GLabel 11100 2500 2    50   Input ~ 0
+Text GLabel 11100 2400 2    50   Input ~ 0
 DENS_CV
 Wire Wire Line
 	11050 2500 11100 2500
-Text GLabel 11100 2400 2    50   Input ~ 0
+Text GLabel 11100 2300 2    50   Input ~ 0
 PANIC
 Wire Wire Line
 	11050 2400 11100 2400
-Text GLabel 11100 2300 2    50   Input ~ 0
+Text GLabel 11100 2200 2    50   Input ~ 0
 DENS_IND
 Wire Wire Line
 	11050 2300 11100 2300
@@ -3279,7 +3279,7 @@ Wire Wire Line
 	14400 4100 14450 4100
 Wire Wire Line
 	14750 4100 14800 4100
-Text GLabel 14600 4300 3    50   Input ~ 0
+Text GLabel 12850 4300 3    50   Input ~ 0
 XCTRL
 Wire Wire Line
 	14600 4250 14600 4300
@@ -3288,13 +3288,13 @@ L Device:R_POT_TRIM RV4
 U 1 1 648E25C4
 P 14600 4100
 F 0 "RV4" V 14393 4100 50  0000 C CNN
-F 1 "XCTRL" V 14484 4100 50  0000 C CNN
+F 1 "MAX_DENS" V 14484 4100 50  0000 C CNN
 F 2 "Crossley_Footprints:SMD_TRIM_JLC" H 14600 4100 50  0001 C CNN
 F 3 "~" H 14600 4100 50  0001 C CNN
 	1    14600 4100
 	0    -1   1    0   
 $EndComp
-Text GLabel 11100 2200 2    50   Input ~ 0
+Text GLabel 11100 2800 2    50   Input ~ 0
 XCTRL
 Wire Wire Line
 	11050 2200 11100 2200
