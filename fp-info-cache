@@ -1,4 +1,4 @@
-18620433543972439
+18643586625260439
 Aesthetics
 BREADBOARD_SPACING
 BREADBOARD SPACING
@@ -231,16 +231,16 @@ SPARKFUN FLAME LOGO - 0.4" HEIGHT - SILKSCREEN
 0
 0
 Aesthetics
-SFE_LOGO_FLAME_.5
-SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
-SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
+SFE_LOGO_FLAME_.05
+SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
+SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
 0
 0
 0
 Aesthetics
-SFE_LOGO_FLAME_.05
-SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
-SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
+SFE_LOGO_FLAME_.5
+SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
+SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
 0
 0
 0
@@ -49420,6 +49420,20 @@ HammerheadAudio
 0
 0
 HammerheadAudio
+3.5mm_JLC_PJ-321A-4A_TRS
+
+
+0
+4
+3
+HammerheadAudio
+3.5mm_JLC_PJ-321A-4A_TRS_Silk
+
+
+0
+4
+3
+HammerheadAudio
 6.5mm_Hole
 
 
@@ -49511,6 +49525,13 @@ HammerheadAudio
 4
 4
 HammerheadAudio
+20kV_Transformer_SMD_SmallPad
+
+
+0
+4
+4
+HammerheadAudio
 555_MatchingPinout
 
 
@@ -49561,6 +49582,13 @@ Asterism+Lines_5.6x5.5mm_Silk_BothSides
 0
 HammerheadAudio
 Asterism_5.6x5.5mm_Silk
+
+
+0
+0
+0
+HammerheadAudio
+Babble_Test_186.1x300.2mm
 
 
 0
@@ -50092,6 +50120,27 @@ EuroJack_Hex
 3
 3
 HammerheadAudio
+EuroJack_Hex_SmallHoles_NoSilk
+
+
+0
+3
+3
+HammerheadAudio
+EuroJack_Hex_SmallHoles_NoSilk_Clearance
+
+
+0
+3
+3
+HammerheadAudio
+EuroJack_Hex_SmallHoles_NoSilk_Clearance2
+
+
+0
+4
+3
+HammerheadAudio
 EuroJack_MonoSW_THT
 
 
@@ -50107,6 +50156,13 @@ EuroJack_MonoSW_THT_Bothsides_NoRef
 3
 HammerheadAudio
 EuroJack_MonoSW_THT_NOREF_Mask
+
+
+0
+3
+3
+HammerheadAudio
+EuroJack_MonoSW_THT_NOREF_Mask_SmallHoles_NoSilk
 
 
 0
@@ -51275,6 +51331,13 @@ phoenix_contact connector MCV_01x02_G_3.81mm
 4
 2
 HammerheadAudio
+Phoenix_Stacked_Marking2_Wider_NoRef_Centered
+Generic Phoenix Contact connector footprint for: MCV_1,5/2-G-3.81; number of pins: 02; pin pitch: 3.81mm; Vertical || order number: 1803426 8A 160V
+phoenix_contact connector MCV_01x02_G_3.81mm
+0
+4
+2
+HammerheadAudio
 Phoenix_Stacked_Marking_1x3
 Generic Phoenix Contact connector footprint for: MCV_1,5/3-G-3.81; number of pins: 03; pin pitch: 3.81mm; Vertical || order number: 1803439 8A 160V
 phoenix_contact connector MCV_01x03_G_3.81mm
@@ -51498,6 +51561,27 @@ Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W len
 0
 2
 2
+HammerheadAudio
+Screamer_6x9mm
+
+
+0
+0
+0
+HammerheadAudio
+Screamer_7x10mm
+
+
+0
+0
+0
+HammerheadAudio
+Screamer_Tounge_6x9mm
+
+
+0
+0
+0
 HammerheadAudio
 ScrewTerm+Phoenix
 
@@ -51793,6 +51877,13 @@ TermiteQueen_Fill_13x25mm
 0
 0
 HammerheadAudio
+TermiteQueen_Fill_13x25mm_Eco2
+
+
+0
+0
+0
+HammerheadAudio
 TermiteQueen_Inline_13x25mm
 
 
@@ -51801,6 +51892,13 @@ TermiteQueen_Inline_13x25mm
 0
 HammerheadAudio
 TermiteQueen_Outline_13x25mm
+
+
+0
+0
+0
+HammerheadAudio
+TermiteQueen_Outline_13x25mm_Eco1
 
 
 0

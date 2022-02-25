@@ -3186,7 +3186,7 @@ F 3 "" H 8700 1200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8700 1200 8900 1200
-Text GLabel 11100 2400 2    50   Input ~ 0
+Text GLabel 11100 2300 2    50   Input ~ 0
 DROP
 Wire Wire Line
 	8850 3100 8900 3100
@@ -3226,7 +3226,7 @@ F 3 "" H 13900 9100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	13900 9050 13900 9100
-Text GLabel 11100 2300 2    50   Input ~ 0
+Text GLabel 11100 2400 2    50   Input ~ 0
 DENS_CV
 Wire Wire Line
 	11050 2500 11100 2500
